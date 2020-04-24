@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>E:\Temp\testng-eclipse--399512131\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 1 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_name(小柒01, 更新成功)">test_edit_address_name(小柒01, 更新成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="loginsucess">loginsucess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_address(湖北省石家庄市, 修改失败)">test_edit_address_address(湖北省石家庄市, 修改失败)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_address(河北省唐山市裕华区, 修改失败)">test_edit_address_address(河北省唐山市裕华区, 修改失败)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_address(河北省唐山市路北区, 修改成功)">test_edit_address_address(河北省唐山市路北区, 修改成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_address(天津市*%$#@, 修改失败)">test_edit_address_address(天津市*%$#@, 修改失败)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_more(长安区裕翔街河北师范大学, 修改失败)">test_edit_address_more(长安区裕翔街河北师范大学, 修改失败)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_more($#^&amp;*, 修改失败)">test_edit_address_more($#^&*, 修改失败)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_more(长安区%#%&amp;*河北师范大学, 修改失败)">test_edit_address_more(长安区%#%&*河北师范大学, 修改失败)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_more(裕华区裕翔街河北师范大学, 修改成功)">test_edit_address_more(裕华区裕翔街河北师范大学, 修改成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_name(Crush, 更新成功)">test_edit_address_name(Crush, 更新成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_name(ahdusifds
+utrkbfjifhdnsjfhsabesjffbsahdkefsd, 更新失败)">test_edit_address_name(ahdusifds
+utrkbfjifhdnsjfhsabesjffbsahdkefsd, 更新失败)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_name(daisy123, 更新成功)">test_edit_address_name(daisy123, 更新成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_name(小柒crush, 更新成功)">test_edit_address_name(小柒crush, 更新成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_name(小柒, 更新成功)">test_edit_address_name(小柒, 更新成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_name($#@*&amp;, 更新失败)">test_edit_address_name($#@*&, 更新失败)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_name(012345, 更新成功)">test_edit_address_name(012345, 更新成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_phone(173630276460, 修改失败)">test_edit_address_phone(173630276460, 修改失败)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="wangxinping.testcase.AddressTest" hash-for-method="test_edit_address_phone(1736302764, 修改失败)">test_edit_address_phone(1736302764, 修改失败)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">wangxinping.testcase.AddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_name(小柒01, 更新成功)">
+                  </a> <!-- test_edit_address_name(小柒01, 更新成功) -->
+                  <span class="method-name">test_edit_address_name</span>
+                  <span class="parameters">(小柒01, 更新成功)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;LAPTOP-GAD15EJN&apos;, ip: &apos;192.168.217.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .welcome.WelcomeActivity, appPackage: com.onepilltest, databaseEnabled: false, desired: {appActivity: .welcome.WelcomeActivity, appPackage: com.onepilltest, deviceName: 127.0.0.1:5037, noReset: true, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: f2b8dae7-2962-45d6-ae99-7b6f53642fc8
+*** Element info: {Using=xpath, value=//*[@class=&apos;android.widget.Toast&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at wangxinping.utils.BaseAction.getToast(BaseAction.java:114)
+	at wangxinping.pages.AddressPage.edit_address_name(AddressPage.java:87)
+	at wangxinping.testcase.AddressTest.test_edit_address_name(AddressTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+
+</div> <!-- stack-trace -->
+                  <em>
+(修改地址——收货人)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">wangxinping.testcase.AddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginsucess">
+                  </a> <!-- loginsucess -->
+                  <span class="method-name">loginsucess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_address(湖北省石家庄市, 修改失败)">
+                  </a> <!-- test_edit_address_address(湖北省石家庄市, 修改失败) -->
+                  <span class="method-name">test_edit_address_address</span>
+                  <span class="parameters">(湖北省石家庄市, 修改失败)</span>
+                  <em>
+(修改地区信息)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_address(河北省唐山市裕华区, 修改失败)">
+                  </a> <!-- test_edit_address_address(河北省唐山市裕华区, 修改失败) -->
+                  <span class="method-name">test_edit_address_address</span>
+                  <span class="parameters">(河北省唐山市裕华区, 修改失败)</span>
+                  <em>
+(修改地区信息)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_address(河北省唐山市路北区, 修改成功)">
+                  </a> <!-- test_edit_address_address(河北省唐山市路北区, 修改成功) -->
+                  <span class="method-name">test_edit_address_address</span>
+                  <span class="parameters">(河北省唐山市路北区, 修改成功)</span>
+                  <em>
+(修改地区信息)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_address(天津市*%$#@, 修改失败)">
+                  </a> <!-- test_edit_address_address(天津市*%$#@, 修改失败) -->
+                  <span class="method-name">test_edit_address_address</span>
+                  <span class="parameters">(天津市*%$#@, 修改失败)</span>
+                  <em>
+(修改地区信息)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_more(长安区裕翔街河北师范大学, 修改失败)">
+                  </a> <!-- test_edit_address_more(长安区裕翔街河北师范大学, 修改失败) -->
+                  <span class="method-name">test_edit_address_more</span>
+                  <span class="parameters">(长安区裕翔街河北师范大学, 修改失败)</span>
+                  <em>
+(修改详细地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_more($#^&amp;*, 修改失败)">
+                  </a> <!-- test_edit_address_more($#^&*, 修改失败) -->
+                  <span class="method-name">test_edit_address_more</span>
+                  <span class="parameters">($#^&*, 修改失败)</span>
+                  <em>
+(修改详细地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_more(长安区%#%&amp;*河北师范大学, 修改失败)">
+                  </a> <!-- test_edit_address_more(长安区%#%&*河北师范大学, 修改失败) -->
+                  <span class="method-name">test_edit_address_more</span>
+                  <span class="parameters">(长安区%#%&*河北师范大学, 修改失败)</span>
+                  <em>
+(修改详细地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_more(裕华区裕翔街河北师范大学, 修改成功)">
+                  </a> <!-- test_edit_address_more(裕华区裕翔街河北师范大学, 修改成功) -->
+                  <span class="method-name">test_edit_address_more</span>
+                  <span class="parameters">(裕华区裕翔街河北师范大学, 修改成功)</span>
+                  <em>
+(修改详细地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_name(Crush, 更新成功)">
+                  </a> <!-- test_edit_address_name(Crush, 更新成功) -->
+                  <span class="method-name">test_edit_address_name</span>
+                  <span class="parameters">(Crush, 更新成功)</span>
+                  <em>
+(修改地址——收货人)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_name(ahdusifds
+utrkbfjifhdnsjfhsabesjffbsahdkefsd, 更新失败)">
+                  </a> <!-- test_edit_address_name(ahdusifds
+utrkbfjifhdnsjfhsabesjffbsahdkefsd, 更新失败) -->
+                  <span class="method-name">test_edit_address_name</span>
+                  <span class="parameters">(ahdusifds
+utrkbfjifhdnsjfhsabesjffbsahdkefsd, 更新失败)</span>
+                  <em>
+(修改地址——收货人)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_name(daisy123, 更新成功)">
+                  </a> <!-- test_edit_address_name(daisy123, 更新成功) -->
+                  <span class="method-name">test_edit_address_name</span>
+                  <span class="parameters">(daisy123, 更新成功)</span>
+                  <em>
+(修改地址——收货人)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_name(小柒crush, 更新成功)">
+                  </a> <!-- test_edit_address_name(小柒crush, 更新成功) -->
+                  <span class="method-name">test_edit_address_name</span>
+                  <span class="parameters">(小柒crush, 更新成功)</span>
+                  <em>
+(修改地址——收货人)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_name(小柒, 更新成功)">
+                  </a> <!-- test_edit_address_name(小柒, 更新成功) -->
+                  <span class="method-name">test_edit_address_name</span>
+                  <span class="parameters">(小柒, 更新成功)</span>
+                  <em>
+(修改地址——收货人)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_name($#@*&amp;, 更新失败)">
+                  </a> <!-- test_edit_address_name($#@*&, 更新失败) -->
+                  <span class="method-name">test_edit_address_name</span>
+                  <span class="parameters">($#@*&, 更新失败)</span>
+                  <em>
+(修改地址——收货人)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_name(012345, 更新成功)">
+                  </a> <!-- test_edit_address_name(012345, 更新成功) -->
+                  <span class="method-name">test_edit_address_name</span>
+                  <span class="parameters">(012345, 更新成功)</span>
+                  <em>
+(修改地址——收货人)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_phone(173630276460, 修改失败)">
+                  </a> <!-- test_edit_address_phone(173630276460, 修改失败) -->
+                  <span class="method-name">test_edit_address_phone</span>
+                  <span class="parameters">(173630276460, 修改失败)</span>
+                  <em>
+(修改地址——手机号码)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_address_phone(1736302764, 修改失败)">
+                  </a> <!-- test_edit_address_phone(1736302764, 修改失败) -->
+                  <span class="method-name">test_edit_address_phone</span>
+                  <span class="parameters">(1736302764, 修改失败)</span>
+                  <em>
+(修改地址——手机号码)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Temp\testng-eclipse--399512131\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;wangxinping.testcase.AddressTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+  &lt;test name=&quot;Default test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;wangxinping.testcase.AddressTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;globalSetup&quot;/&gt;
+          &lt;include name=&quot;test_edit_address_name&quot; invocation-numbers=&quot;4&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- wangxinping.testcase.AddressTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Default test(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_edit_address_name')
+data.setCell(0, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(0, 3, 12587);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_edit_address_name')
+data.setCell(1, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(1, 3, 12238);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_edit_address_more')
+data.setCell(2, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(2, 3, 12131);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_edit_address_address')
+data.setCell(3, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(3, 3, 12118);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_edit_address_name')
+data.setCell(4, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(4, 3, 12019);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_edit_address_more')
+data.setCell(5, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(5, 3, 11970);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_edit_address_address')
+data.setCell(6, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(6, 3, 11826);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_edit_address_address')
+data.setCell(7, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(7, 3, 11743);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_edit_address_name')
+data.setCell(8, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(8, 3, 11616);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_edit_address_more')
+data.setCell(9, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(9, 3, 11592);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_edit_address_more')
+data.setCell(10, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(10, 3, 11552);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_edit_address_name')
+data.setCell(11, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(11, 3, 11550);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_edit_address_name')
+data.setCell(12, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(12, 3, 11542);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_edit_address_name')
+data.setCell(13, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(13, 3, 11501);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_edit_address_address')
+data.setCell(14, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(14, 3, 11383);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test_edit_address_phone')
+data.setCell(15, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(15, 3, 11157);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_edit_address_phone')
+data.setCell(16, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(16, 3, 10979);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginsucess')
+data.setCell(17, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(17, 3, 9846);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test_edit_address_name')
+data.setCell(18, 2, 'wangxinping.testcase.AddressTest')
+data.setCell(18, 3, 8020);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">wangxinping.testcase.AddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">globalSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">loginsucess</span>
+                <span class="method-start">37289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_name(012345, 更新成功)</span>
+                <span class="method-start">48018 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_name(Crush, 更新成功)</span>
+                <span class="method-start">60607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_name(daisy123, 更新成功)</span>
+                <span class="method-start">72626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_name(小柒, 更新成功)</span>
+                <span class="method-start">84865 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_edit_address_name(小柒01, 更新成功)</span>
+                <span class="method-start">96366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_name(小柒crush, 更新成功)</span>
+                <span class="method-start">104399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_name(ahdusifds
+utrkbfjifhdnsjfhsabesjffbsahdkefsd, 更新失败)</span>
+                <span class="method-start">116015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_name($#@*&, 更新失败)</span>
+                <span class="method-start">127567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_phone(173630276460, 修改失败)</span>
+                <span class="method-start">139206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_phone(1736302764, 修改失败)</span>
+                <span class="method-start">150185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_address(河北省唐山市路北区, 修改成功)</span>
+                <span class="method-start">161454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_address(湖北省石家庄市, 修改失败)</span>
+                <span class="method-start">173572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_address(河北省唐山市裕华区, 修改失败)</span>
+                <span class="method-start">184955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_address(天津市*%$#@, 修改失败)</span>
+                <span class="method-start">196786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_more(裕华区裕翔街河北师范大学, 修改成功)</span>
+                <span class="method-start">208582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_more(长安区裕翔街河北师范大学, 修改失败)</span>
+                <span class="method-start">220174 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_more(长安区%#%&*河北师范大学, 修改失败)</span>
+                <span class="method-start">232305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_address_more($#^&*, 修改失败)</span>
+                <span class="method-start">243857 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
