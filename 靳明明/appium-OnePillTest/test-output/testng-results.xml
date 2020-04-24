@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11255" started-at="2020-04-22T02:47:51Z" finished-at="2020-04-22T02:48:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11255" started-at="2020-04-22T02:47:51Z" finished-at="2020-04-22T02:48:02Z">
+      <class name="testcase.MainTest">
+        <test-method status="PASS" signature="globalSetup()[pri:0, instance:testcase.MainTest@25618e91]" name="globalSetup" is-config="true" duration-ms="17746" started-at="2020-04-22T10:47:33Z" finished-at="2020-04-22T10:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcase.MainTest@25618e91]" name="login" is-config="true" duration-ms="6069" started-at="2020-04-22T10:47:51Z" finished-at="2020-04-22T10:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="MainSuccess()[pri:0, instance:testcase.MainTest@25618e91]" name="MainSuccess" duration-ms="5172" started-at="2020-04-22T10:47:57Z" finished-at="2020-04-22T10:48:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainSuccess -->
+        <test-method status="PASS" signature="globalTearDown()[pri:0, instance:testcase.MainTest@25618e91]" name="globalTearDown" is-config="true" duration-ms="1010" started-at="2020-04-22T10:48:02Z" finished-at="2020-04-22T10:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalTearDown -->
+      </class> <!-- testcase.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
