@@ -56,9 +56,8 @@ public class CommentPage {
 		List<AndroidElement> comments = this.driver.findElementsById("tv_commenter_content");
 		
 		AndroidElement firstComment = comments.get(0);
-		AndroidElement lastComment = comments.get(comments.size()-2);   
-		action.swip(lastComment, firstComment);
-
+		AndroidElement lastComment = comments.get(comments.size()-2);		
+		action.swip(lastComment, firstComment);		
 		comments = this.driver.findElementsById("tv_commenter_content");		
 		return comments.get(comments.size()-1);
 	}
