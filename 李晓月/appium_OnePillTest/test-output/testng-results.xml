@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="255488" started-at="2020-04-29T13:51:07Z" finished-at="2020-04-29T13:55:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="255488" started-at="2020-04-29T13:51:07Z" finished-at="2020-04-29T13:55:23Z">
+      <class name="lixiaoyue.testcase.WeTest">
+        <test-method status="PASS" signature="globalSetup()[pri:0, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="globalSetup" is-config="true" duration-ms="26157" started-at="2020-04-29T21:50:41Z" finished-at="2020-04-29T21:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="login" duration-ms="6028" started-at="2020-04-29T21:51:08Z" finished-at="2020-04-29T21:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="ClickWe()[pri:1, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="ClickWe" duration-ms="6194" started-at="2020-04-29T21:51:14Z" description="点击我们" finished-at="2020-04-29T21:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickWe -->
+        <test-method status="PASS" signature="EditQuestion(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="EditQuestion" duration-ms="16460" started-at="2020-04-29T21:51:22Z" description="输入问题" data-provider="help" finished-at="2020-04-29T21:51:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[哈哈哈哈]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditQuestion -->
+        <test-method status="PASS" signature="EditQuestion(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="EditQuestion" duration-ms="16647" started-at="2020-04-29T21:51:38Z" description="输入问题" data-provider="help" finished-at="2020-04-29T21:51:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditQuestion -->
+        <test-method status="PASS" signature="EditQuestion(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="EditQuestion" duration-ms="16877" started-at="2020-04-29T21:51:55Z" description="输入问题" data-provider="help" finished-at="2020-04-29T21:52:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditQuestion -->
+        <test-method status="PASS" signature="EditQuestion(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="EditQuestion" duration-ms="16552" started-at="2020-04-29T21:52:12Z" description="输入问题" data-provider="help" finished-at="2020-04-29T21:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditQuestion -->
+        <test-method status="PASS" signature="EditQuestion(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="EditQuestion" duration-ms="17302" started-at="2020-04-29T21:52:28Z" description="输入问题" data-provider="help" finished-at="2020-04-29T21:52:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditQuestion -->
+        <test-method status="PASS" signature="ClickFirst()[pri:7, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="ClickFirst" duration-ms="5697" started-at="2020-04-29T21:52:46Z" description="点击首页" finished-at="2020-04-29T21:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickFirst -->
+        <test-method status="PASS" signature="findDoctor()[pri:8, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="findDoctor" duration-ms="5844" started-at="2020-04-29T21:52:52Z" description="找医生" finished-at="2020-04-29T21:52:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findDoctor -->
+        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18020" started-at="2020-04-29T21:52:57Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Doctor -->
+        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="17996" started-at="2020-04-29T21:53:15Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:53:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Doctor -->
+        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18069" started-at="2020-04-29T21:53:33Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:53:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Doctor -->
+        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="17967" started-at="2020-04-29T21:53:52Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:54:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456789101112131415]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Doctor -->
+        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18062" started-at="2020-04-29T21:54:10Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:54:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[哈哈]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Doctor -->
+        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18492" started-at="2020-04-29T21:54:28Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:54:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[去玩儿天宇哼欧帕斯电饭锅好几款了zxcvbnm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Doctor -->
+        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18346" started-at="2020-04-29T21:54:46Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:55:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Doctor -->
+        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18515" started-at="2020-04-29T21:55:04Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:55:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.!@#$%^]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Doctor -->
+        <test-method status="PASS" signature="globalTearDown()[pri:0, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="globalTearDown" is-config="true" duration-ms="4514" started-at="2020-04-29T21:55:23Z" finished-at="2020-04-29T21:55:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalTearDown -->
+      </class> <!-- lixiaoyue.testcase.WeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
