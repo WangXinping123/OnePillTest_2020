@@ -12,51 +12,91 @@ public class HomePage {
 		this.driver=driver;
 		this.action = new BaseAction(driver);
 	}
-	//�ҵ�
+	/*———————————————定位元素—————————————*/
+	//我的
 	private AndroidElement tab_spec_me() {
 		return driver.findElementById("tab_spec_me");
 	}
-	//����
+	/*-----------订单----------*/
 	private AndroidElement order() {
 		return driver.findElementById("ll_order");
 	}
-	//���ذ�ť
+	//返回按钮
 	private AndroidElement back(){
 		return driver.findElementById("setting_order_back");
 	}
-	//���ﳵ
+	
+	/*-----------购物车----------*/
 	private AndroidElement cart() {
 		return driver.findElementById("ll_cart");
 	}
-	//���ذ�ť
+	//返回按钮
 	private AndroidElement cartback(){
 		return driver.findElementById("cart_back");
 	}
-	//Ǯ��
+	//结算
+	private AndroidElement cartSettlement() {
+		return driver.findElementById("btn_cart_settlement");
+	}
+	/*-----------钱包----------*/
 	private AndroidElement wallet() {
 		return driver.findElementById("ll_wallet");
 	}
-	//���ذ�ť
+	//返回按钮
 	private AndroidElement walletback(){
 		return driver.findElementById("wallet_back");
 	}
-	//��������ҵĽ���
+	//提现按钮
+	private AndroidElement MoneyOut(){
+		return driver.findElementById("wallet_out");
+	}
+	//充值按钮
+	private AndroidElement MoneyIn(){
+		return driver.findElementById("wallet_in");
+	}
+	/*————————————————调用方法————————————————*/
+	//点击进入我的界面
 	public void Main(){
 		action.click(tab_spec_me());
 	}
-	//��������ҵĶ���
+	/*-----------我的订单----------*/
+	//点击进入我的订单
 	public void orderIn(){
 		action.click(order());
+	}
+	//返回
+	public void backOrder(){
 		action.click(back());
 	}
-	//������빺�ﳵ
+	/*-----------购物车----------*/
+	//点击进入购物车
 	public void cartIn(){
 		action.click(cart());
+	}
+	//结算
+	public void Settlement(){
+		action.click(cartSettlement());
+	}
+	//返回
+	public void backCart(){
 		action.click(cartback());
 	}
-	//�������Ǯ��
+	/*-----------钱包----------*/
+	
+	//点击进入钱包
 	public void walletIn(){
 		action.click(wallet());
+	}
+	//提现
+	public void Out(){
+		action.click(MoneyOut());
+	}
+	//充值
+	public void In(){
+		action.click(MoneyIn());
+	}
+	//返回
+	public void backWallet(){
 		action.click(walletback());
 	}
 }

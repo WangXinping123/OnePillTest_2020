@@ -11,19 +11,19 @@ public class LoginPage {
 		this.driver = driver;
 		this.action = new BaseAction(driver);
 	}
-	//µÇÂ¼°´Å¥
+	//ç™»å½•æŒ‰é’®
 	public AndroidElement edit_login(){
 		return this.driver.findElementById("linear_patient");
 	}
-	//ÓÃ»§ÊÖ»úºÅ
+	//ç”¨æˆ·æ‰‹æœºå·
 	public AndroidElement edit_phone() {
 		return this.driver.findElementById("edit_phone");
 	}
-	//ÓÃ»§ÃÜÂë
+	//ç”¨æˆ·å¯†ç 
 	public AndroidElement edit_password() {
 		return this.driver.findElementById("edit_password");
 	}
-	//Ìá½»°´Å¥
+	//æäº¤æŒ‰é’®
 	public AndroidElement btn_submit() {
 		return this.driver.findElementById("btn_login");
 	}

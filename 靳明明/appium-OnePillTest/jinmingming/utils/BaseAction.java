@@ -35,7 +35,7 @@ public class BaseAction {
 	}
 
 	/**
-	 * 输入
+	 * 杈撳叆
 	 * 
 	 * @param element
 	 * @param context
@@ -50,20 +50,20 @@ public class BaseAction {
 		element.sendKeys(context);
 	}
 
-	// 长按
+	// 闀挎寜
 	public void longPress(WebElement element) {
 		LongPressOptions longPressOptions = LongPressOptions.longPressOptions();
 		longPressOptions.withElement(ElementOption.element(element));
 		action.longPress(longPressOptions).release().perform();
 	}
 
-	// 坐标点的滑动
+	// 鍧愭爣鐐圭殑婊戝姩
 	public void swip(PointOption fromOption, PointOption toOption) {
 		action.press(fromOption).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1))).moveTo(toOption)
 				.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1))).release().perform();
 	}
 
-	// 元素间的滑动
+	// 鍏冪礌闂寸殑婊戝姩
 	public void swip(WebElement fromEle, WebElement toEle) {
 
 		PointOption fromOption = PointOption.point(fromEle.getLocation().getX(), fromEle.getLocation().getY());

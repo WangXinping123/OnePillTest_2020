@@ -8,7 +8,7 @@ import base.BaseTest;
 import pages.HomePage;
 import pages.LoginPage;
 
-public class MainTest extends BaseTest{
+public class WalletTest extends BaseTest{
 	HomePage homePage;
 	@BeforeClass
 	public void login() throws Exception {
@@ -17,26 +17,26 @@ public class MainTest extends BaseTest{
 		 Thread.sleep(2000);
 	}
 	SoftAssert softAssert = new SoftAssert();
-	//点击我的
+	//点击进入钱包
 	@Test(priority=0)
-	public void MainSuccess() throws Exception{
-		homePage.Main();
-		softAssert.assertNotNull("我的");
-		Thread.sleep(5000);
+	public void Wallet(){
+		homePage.walletIn();
+		softAssert.assertNotNull("余额");
 	}
-	//点击进入我的订单
+	//提现
 	@Test(priority=1)
-	public void Order() throws Exception{
-		homePage.orderIn();
-		Thread.sleep(200);
-		softAssert.assertNotNull("订单");
+	public void MoneyOut(){
+		homePage.Out();
+	}
+	//充值
+	@Test(priority=1)
+	public void MoneyIn(){
+		homePage.In();
 	}
 	//返回
-	@Test(priority=2)
-	public void Back()throws Exception{
-		homePage.backOrder();
-		Thread.sleep(200);
+	@Test(priority=1)
+	public void back(){
+		homePage.backWallet();
 		softAssert.assertNotNull("我的");
 	}
-
 }

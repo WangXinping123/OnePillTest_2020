@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11255" started-at="2020-04-22T02:47:51Z" finished-at="2020-04-22T02:48:02Z">
+  <suite name="Default suite" duration-ms="11901" started-at="2020-04-29T03:08:53Z" finished-at="2020-04-29T03:09:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11255" started-at="2020-04-22T02:47:51Z" finished-at="2020-04-22T02:48:02Z">
+    <test name="Default test" duration-ms="11901" started-at="2020-04-29T03:08:53Z" finished-at="2020-04-29T03:09:05Z">
       <class name="testcase.MainTest">
-        <test-method status="PASS" signature="globalSetup()[pri:0, instance:testcase.MainTest@25618e91]" name="globalSetup" is-config="true" duration-ms="17746" started-at="2020-04-22T10:47:33Z" finished-at="2020-04-22T10:47:51Z">
+        <test-method status="PASS" signature="globalSetup()[pri:0, instance:testcase.MainTest@483bf400]" name="globalSetup" is-config="true" duration-ms="18531" started-at="2020-04-29T11:08:34Z" finished-at="2020-04-29T11:08:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testcase.MainTest@25618e91]" name="login" is-config="true" duration-ms="6069" started-at="2020-04-22T10:47:51Z" finished-at="2020-04-22T10:47:57Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:testcase.MainTest@483bf400]" name="login" is-config="true" duration-ms="5610" started-at="2020-04-29T11:08:53Z" finished-at="2020-04-29T11:08:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="MainSuccess()[pri:0, instance:testcase.MainTest@25618e91]" name="MainSuccess" duration-ms="5172" started-at="2020-04-22T10:47:57Z" finished-at="2020-04-22T10:48:02Z">
+        <test-method status="PASS" signature="MainSuccess()[pri:0, instance:testcase.MainTest@483bf400]" name="MainSuccess" duration-ms="5279" started-at="2020-04-29T11:08:58Z" finished-at="2020-04-29T11:09:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MainSuccess -->
-        <test-method status="PASS" signature="globalTearDown()[pri:0, instance:testcase.MainTest@25618e91]" name="globalTearDown" is-config="true" duration-ms="1010" started-at="2020-04-22T10:48:02Z" finished-at="2020-04-22T10:48:03Z">
+        <test-method status="PASS" signature="Order()[pri:1, instance:testcase.MainTest@483bf400]" name="Order" duration-ms="136" started-at="2020-04-29T11:09:04Z" finished-at="2020-04-29T11:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Order -->
+        <test-method status="PASS" signature="Back()[pri:2, instance:testcase.MainTest@483bf400]" name="Back" duration-ms="855" started-at="2020-04-29T11:09:04Z" finished-at="2020-04-29T11:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Back -->
+        <test-method status="PASS" signature="globalTearDown()[pri:0, instance:testcase.MainTest@483bf400]" name="globalTearDown" is-config="true" duration-ms="2057" started-at="2020-04-29T11:09:05Z" finished-at="2020-04-29T11:09:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalTearDown -->
