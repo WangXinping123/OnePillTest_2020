@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="19" passed="18">
+<testng-results skipped="0" failed="1" total="27" passed="26">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="218576" started-at="2020-04-24T01:42:29Z" finished-at="2020-04-24T01:46:08Z">
+  <suite name="Default suite" duration-ms="328053" started-at="2020-05-01T09:56:28Z" finished-at="2020-05-01T10:01:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="218576" started-at="2020-04-24T01:42:29Z" finished-at="2020-04-24T01:46:08Z">
+    <test name="Default test" duration-ms="328053" started-at="2020-05-01T09:56:28Z" finished-at="2020-05-01T10:01:56Z">
       <class name="wangxinping.testcase.AddressTest">
-        <test-method status="PASS" signature="globalSetup()[pri:0, instance:wangxinping.testcase.AddressTest@591f989e]" name="globalSetup" is-config="true" duration-ms="37251" started-at="2020-04-24T09:41:52Z" finished-at="2020-04-24T09:42:29Z">
+        <test-method status="PASS" signature="globalSetup()[pri:0, instance:wangxinping.testcase.AddressTest@591f989e]" name="globalSetup" is-config="true" duration-ms="31382" started-at="2020-05-01T17:55:57Z" finished-at="2020-05-01T17:56:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method status="PASS" signature="loginsucess()[pri:1, instance:wangxinping.testcase.AddressTest@591f989e]" name="loginsucess" duration-ms="9846" started-at="2020-04-24T09:42:29Z" finished-at="2020-04-24T09:42:39Z">
+        <test-method status="PASS" signature="loginsucess()[pri:1, instance:wangxinping.testcase.AddressTest@591f989e]" name="loginsucess" duration-ms="12643" started-at="2020-05-01T17:56:28Z" finished-at="2020-05-01T17:56:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginsucess -->
-        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="12587" started-at="2020-04-24T09:42:40Z" description="修改地址——收货人" data-provider="name" finished-at="2020-04-24T09:42:53Z">
+        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="12318" started-at="2020-05-01T17:56:42Z" description="修改地址——收货人" data-provider="name" finished-at="2020-05-01T17:56:55Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_edit_address_name -->
-        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="12019" started-at="2020-04-24T09:42:53Z" description="修改地址——收货人" data-provider="name" finished-at="2020-04-24T09:43:05Z">
+        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="11469" started-at="2020-05-01T17:56:55Z" description="修改地址——收货人" data-provider="name" finished-at="2020-05-01T17:57:06Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_edit_address_name -->
-        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="12238" started-at="2020-04-24T09:43:05Z" description="修改地址——收货人" data-provider="name" finished-at="2020-04-24T09:43:17Z">
+        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="10970" started-at="2020-05-01T17:57:06Z" description="修改地址——收货人" data-provider="name" finished-at="2020-05-01T17:57:17Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_edit_address_name -->
-        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="11501" started-at="2020-04-24T09:43:17Z" description="修改地址——收货人" data-provider="name" finished-at="2020-04-24T09:43:29Z">
+        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="11276" started-at="2020-05-01T17:57:17Z" description="修改地址——收货人" data-provider="name" finished-at="2020-05-01T17:57:28Z">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_edit_address_name -->
-        <test-method status="FAIL" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="8020" started-at="2020-04-24T09:43:29Z" description="修改地址——收货人" data-provider="name" finished-at="2020-04-24T09:43:37Z">
+        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="11535" started-at="2020-05-01T17:57:28Z" description="修改地址——收货人" data-provider="name" finished-at="2020-05-01T17:57:40Z">
           <params>
             <param index="0">
               <value>
@@ -92,6 +92,135 @@
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_edit_address_name -->
+        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="11200" started-at="2020-05-01T17:57:40Z" description="修改地址——收货人" data-provider="name" finished-at="2020-05-01T17:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小柒crush]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[更新成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_edit_address_name -->
+        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="11417" started-at="2020-05-01T17:57:51Z" description="修改地址——收货人" data-provider="name" finished-at="2020-05-01T17:58:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ahdusifds
+utrkbfjifhdnsjfhsabesjffbsahdkefsd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[更新失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_edit_address_name -->
+        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="11115" started-at="2020-05-01T17:58:03Z" description="修改地址——收货人" data-provider="name" finished-at="2020-05-01T17:58:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$#@*&]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[更新失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_edit_address_name -->
+        <test-method status="PASS" signature="test_edit_address_phone(java.lang.String, java.lang.String)[pri:10, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_phone" duration-ms="11634" started-at="2020-05-01T17:58:14Z" description="修改地址——手机号码" data-provider="phone" finished-at="2020-05-01T17:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[173630276460]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[修改失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_edit_address_phone -->
+        <test-method status="PASS" signature="test_edit_address_phone(java.lang.String, java.lang.String)[pri:10, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_phone" duration-ms="11754" started-at="2020-05-01T17:58:26Z" description="修改地址——手机号码" data-provider="phone" finished-at="2020-05-01T17:58:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1736302764]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[修改失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_edit_address_phone -->
+        <test-method status="PASS" signature="test_edit_address_address(java.lang.String, java.lang.String)[pri:12, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_address" duration-ms="11288" started-at="2020-05-01T17:58:37Z" description="修改地区信息" data-provider="address" finished-at="2020-05-01T17:58:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[河北省唐山市路北区]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[修改成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_edit_address_address -->
+        <test-method status="PASS" signature="test_edit_address_address(java.lang.String, java.lang.String)[pri:12, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_address" duration-ms="11766" started-at="2020-05-01T17:58:49Z" description="修改地区信息" data-provider="address" finished-at="2020-05-01T17:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[湖北省石家庄市]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[修改失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_edit_address_address -->
+        <test-method status="FAIL" signature="test_edit_address_address(java.lang.String, java.lang.String)[pri:12, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_address" duration-ms="7404" started-at="2020-05-01T17:59:00Z" description="修改地区信息" data-provider="address" finished-at="2020-05-01T17:59:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[河北省唐山市裕华区]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[修改失败]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -100,7 +229,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25
 System info: host: 'LAPTOP-GAD15EJN', ip: '192.168.217.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: .welcome.WelcomeActivity, appPackage: com.onepilltest, databaseEnabled: false, desired: {appActivity: .welcome.WelcomeActivity, appPackage: com.onepilltest, deviceName: 127.0.0.1:5037, noReset: true, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: f2b8dae7-2962-45d6-ae99-7b6f53642fc8
+Session ID: bf392f55-3e1c-44ce-971d-5582662dcf34
 *** Element info: {Using=xpath, value=//*[@class='android.widget.Toast']}]]>
             </message>
             <full-stacktrace>
@@ -110,7 +239,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25
 System info: host: 'LAPTOP-GAD15EJN', ip: '192.168.217.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: .welcome.WelcomeActivity, appPackage: com.onepilltest, databaseEnabled: false, desired: {appActivity: .welcome.WelcomeActivity, appPackage: com.onepilltest, deviceName: 127.0.0.1:5037, noReset: true, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: f2b8dae7-2962-45d6-ae99-7b6f53642fc8
+Session ID: bf392f55-3e1c-44ce-971d-5582662dcf34
 *** Element info: {Using=xpath, value=//*[@class='android.widget.Toast']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -134,8 +263,8 @@ Session ID: f2b8dae7-2962-45d6-ae99-7b6f53642fc8
 	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
 	at wangxinping.utils.BaseAction.getToast(BaseAction.java:114)
-	at wangxinping.pages.AddressPage.edit_address_name(AddressPage.java:87)
-	at wangxinping.testcase.AddressTest.test_edit_address_name(AddressTest.java:34)
+	at wangxinping.pages.AddressPage.edit_address_address(AddressPage.java:136)
+	at wangxinping.testcase.AddressTest.test_edit_address_address(AddressTest.java:64)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -165,137 +294,8 @@ Session ID: f2b8dae7-2962-45d6-ae99-7b6f53642fc8
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_edit_address_name -->
-        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="11616" started-at="2020-04-24T09:43:37Z" description="修改地址——收货人" data-provider="name" finished-at="2020-04-24T09:43:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[小柒crush]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[更新成功]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_edit_address_name -->
-        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="11550" started-at="2020-04-24T09:43:48Z" description="修改地址——收货人" data-provider="name" finished-at="2020-04-24T09:44:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ahdusifds
-utrkbfjifhdnsjfhsabesjffbsahdkefsd]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[更新失败]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_edit_address_name -->
-        <test-method status="PASS" signature="test_edit_address_name(java.lang.String, java.lang.String)[pri:5, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_name" duration-ms="11542" started-at="2020-04-24T09:44:00Z" description="修改地址——收货人" data-provider="name" finished-at="2020-04-24T09:44:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[$#@*&]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[更新失败]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_edit_address_name -->
-        <test-method status="PASS" signature="test_edit_address_phone(java.lang.String, java.lang.String)[pri:10, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_phone" duration-ms="10979" started-at="2020-04-24T09:44:11Z" description="修改地址——手机号码" data-provider="phone" finished-at="2020-04-24T09:44:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[173630276460]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[修改失败]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_edit_address_phone -->
-        <test-method status="PASS" signature="test_edit_address_phone(java.lang.String, java.lang.String)[pri:10, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_phone" duration-ms="11157" started-at="2020-04-24T09:44:22Z" description="修改地址——手机号码" data-provider="phone" finished-at="2020-04-24T09:44:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1736302764]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[修改失败]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_edit_address_phone -->
-        <test-method status="PASS" signature="test_edit_address_address(java.lang.String, java.lang.String)[pri:12, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_address" duration-ms="12118" started-at="2020-04-24T09:44:34Z" description="修改地区信息" data-provider="address" finished-at="2020-04-24T09:44:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[河北省唐山市路北区]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[修改成功]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- test_edit_address_address -->
-        <test-method status="PASS" signature="test_edit_address_address(java.lang.String, java.lang.String)[pri:12, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_address" duration-ms="11383" started-at="2020-04-24T09:44:46Z" description="修改地区信息" data-provider="address" finished-at="2020-04-24T09:44:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[湖北省石家庄市]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[修改失败]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_edit_address_address -->
-        <test-method status="PASS" signature="test_edit_address_address(java.lang.String, java.lang.String)[pri:12, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_address" duration-ms="11826" started-at="2020-04-24T09:44:57Z" description="修改地区信息" data-provider="address" finished-at="2020-04-24T09:45:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[河北省唐山市裕华区]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[修改失败]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_edit_address_address -->
-        <test-method status="PASS" signature="test_edit_address_address(java.lang.String, java.lang.String)[pri:12, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_address" duration-ms="11743" started-at="2020-04-24T09:45:09Z" description="修改地区信息" data-provider="address" finished-at="2020-04-24T09:45:21Z">
+        <test-method status="PASS" signature="test_edit_address_address(java.lang.String, java.lang.String)[pri:12, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_address" duration-ms="11406" started-at="2020-05-01T17:59:08Z" description="修改地区信息" data-provider="address" finished-at="2020-05-01T17:59:19Z">
           <params>
             <param index="0">
               <value>
@@ -311,7 +311,7 @@ utrkbfjifhdnsjfhsabesjffbsahdkefsd]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_edit_address_address -->
-        <test-method status="PASS" signature="test_edit_address_more(java.lang.String, java.lang.String)[pri:16, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_more" duration-ms="11592" started-at="2020-04-24T09:45:21Z" description="修改详细地址" data-provider="address_more" finished-at="2020-04-24T09:45:32Z">
+        <test-method status="PASS" signature="test_edit_address_more(java.lang.String, java.lang.String)[pri:16, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_more" duration-ms="11529" started-at="2020-05-01T17:59:19Z" description="修改详细地址" data-provider="address_more" finished-at="2020-05-01T17:59:31Z">
           <params>
             <param index="0">
               <value>
@@ -327,7 +327,7 @@ utrkbfjifhdnsjfhsabesjffbsahdkefsd]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_edit_address_more -->
-        <test-method status="PASS" signature="test_edit_address_more(java.lang.String, java.lang.String)[pri:16, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_more" duration-ms="12131" started-at="2020-04-24T09:45:32Z" description="修改详细地址" data-provider="address_more" finished-at="2020-04-24T09:45:44Z">
+        <test-method status="PASS" signature="test_edit_address_more(java.lang.String, java.lang.String)[pri:16, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_more" duration-ms="11760" started-at="2020-05-01T17:59:31Z" description="修改详细地址" data-provider="address_more" finished-at="2020-05-01T17:59:43Z">
           <params>
             <param index="0">
               <value>
@@ -343,7 +343,7 @@ utrkbfjifhdnsjfhsabesjffbsahdkefsd]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_edit_address_more -->
-        <test-method status="PASS" signature="test_edit_address_more(java.lang.String, java.lang.String)[pri:16, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_more" duration-ms="11552" started-at="2020-04-24T09:45:44Z" description="修改详细地址" data-provider="address_more" finished-at="2020-04-24T09:45:56Z">
+        <test-method status="PASS" signature="test_edit_address_more(java.lang.String, java.lang.String)[pri:16, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_more" duration-ms="11203" started-at="2020-05-01T17:59:43Z" description="修改详细地址" data-provider="address_more" finished-at="2020-05-01T17:59:54Z">
           <params>
             <param index="0">
               <value>
@@ -359,7 +359,7 @@ utrkbfjifhdnsjfhsabesjffbsahdkefsd]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_edit_address_more -->
-        <test-method status="PASS" signature="test_edit_address_more(java.lang.String, java.lang.String)[pri:16, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_more" duration-ms="11970" started-at="2020-04-24T09:45:56Z" description="修改详细地址" data-provider="address_more" finished-at="2020-04-24T09:46:08Z">
+        <test-method status="PASS" signature="test_edit_address_more(java.lang.String, java.lang.String)[pri:16, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_more" duration-ms="11465" started-at="2020-05-01T17:59:54Z" description="修改详细地址" data-provider="address_more" finished-at="2020-05-01T18:00:05Z">
           <params>
             <param index="0">
               <value>
@@ -375,6 +375,254 @@ utrkbfjifhdnsjfhsabesjffbsahdkefsd]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_edit_address_more -->
+        <test-method status="PASS" signature="test_edit_address_code(java.lang.String, java.lang.String)[pri:20, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_code" duration-ms="13281" started-at="2020-05-01T18:00:06Z" description="修改邮政编码" data-provider="address_code" finished-at="2020-05-01T18:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[064003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[修改成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_edit_address_code -->
+        <test-method status="PASS" signature="test_edit_address_code(java.lang.String, java.lang.String)[pri:20, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_edit_address_code" duration-ms="10961" started-at="2020-05-01T18:00:19Z" description="修改邮政编码" data-provider="address_code" finished-at="2020-05-01T18:00:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc064003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[修改失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_edit_address_code -->
+        <test-method status="PASS" signature="test_add_address(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:25, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_add_address" duration-ms="14835" started-at="2020-05-01T18:00:30Z" description="添加地址" data-provider="add_address" finished-at="2020-05-01T18:00:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[012345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[17363027646]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[河北省唐山市路北区]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[裕华区裕翔街河北师范大学]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[064003]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[添加失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_address -->
+        <test-method status="PASS" signature="test_add_address(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:25, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_add_address" duration-ms="13668" started-at="2020-05-01T18:00:45Z" description="添加地址" data-provider="add_address" finished-at="2020-05-01T18:00:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Crush]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[173630276460]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[湖北省石家庄市]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[长安区裕翔街河北师范大学]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc064003]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[添加失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_address -->
+        <test-method status="PASS" signature="test_add_address(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:25, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_add_address" duration-ms="14670" started-at="2020-05-01T18:00:58Z" description="添加地址" data-provider="add_address" finished-at="2020-05-01T18:01:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daisy123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1736302646]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[河北省唐山市裕华区]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[长安区%#%&*河北师范大学]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc064004]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[添加失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_address -->
+        <test-method status="PASS" signature="test_add_address(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:25, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_add_address" duration-ms="13187" started-at="2020-05-01T18:01:13Z" description="添加地址" data-provider="add_address" finished-at="2020-05-01T18:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小柒]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1736302646]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[天津市*%$#@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[裕华区裕翔街河北师范大学]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc064003]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[添加失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_address -->
+        <test-method status="PASS" signature="test_add_address(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:25, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_add_address" duration-ms="15029" started-at="2020-05-01T18:01:26Z" description="添加地址" data-provider="add_address" finished-at="2020-05-01T18:01:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小柒01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1736302746]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[河北省唐山市裕华区]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[长安区裕翔街河北师范大学]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[064003]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[添加失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_address -->
+        <test-method status="PASS" signature="test_add_address(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:25, instance:wangxinping.testcase.AddressTest@591f989e]" name="test_add_address" duration-ms="14793" started-at="2020-05-01T18:01:41Z" description="添加地址" data-provider="add_address" finished-at="2020-05-01T18:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小柒crush]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[173630270646]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[湖北省石家庄市]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[$#^&*]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[#$%@!]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[添加失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_address -->
       </class> <!-- wangxinping.testcase.AddressTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -11,7 +11,7 @@
       <class name="wangxinping.testcase.AddressTest">
         <methods>
           <include name="globalSetup"/>
-          <include name="test_edit_address_name" invocation-numbers="4"/>
+          <include name="test_edit_address_address" invocation-numbers="2"/>
         </methods>
       </class> <!-- wangxinping.testcase.AddressTest -->
     </classes>

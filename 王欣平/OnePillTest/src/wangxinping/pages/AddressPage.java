@@ -68,6 +68,35 @@ public class AddressPage {
 		return this.driver.findElementById("edit_user_info_back");
 	}
 	
+	private AndroidElement user_address_add() {
+		return this.driver.findElementById("user_address_add");
+	}
+	
+	private AndroidElement add_address_name() {
+		return this.driver.findElementById("add_address_name");
+	}
+	
+	private AndroidElement add_address_phoneNumber() {
+		return this.driver.findElementById("add_address_phoneNumber");
+	}
+	
+	private AndroidElement add_address_address() {
+		return this.driver.findElementById("add_address_address");
+	}
+	
+	private AndroidElement add_address_more() {
+		return this.driver.findElementById("add_address_more");
+	}
+	
+	private AndroidElement add_address_postalCode() {
+		return this.driver.findElementById("add_address_postalCode");
+	}
+	
+	private AndroidElement btn_add_address_save() {
+		return this.driver.findElementById("add_address_save");
+	}
+	
+	
 	public void to_setting() throws InterruptedException{
 		action.click(btn_me());
 		Thread.sleep(2000);
@@ -127,7 +156,20 @@ public class AddressPage {
 		return action.getToast();
 	}
 	
-
+//	添加地址
+	public String add_address(String address_name,String address_phone,String address_address,
+			String address_more,String address_postalCode) throws InterruptedException{
+		Thread.sleep(3000);
+		action.click(user_address_add());
+		Thread.sleep(1000);
+		action.type(add_address_name(),address_name);
+		action.type(add_address_phoneNumber(), address_phone);
+		action.type(add_address_address(),address_address);
+		action.type(add_address_more(), address_more);
+		action.type(add_address_postalCode(), address_postalCode);
+		action.click(btn_add_address_save());
+		return action.getToast();
+	}	
 
 }
 
