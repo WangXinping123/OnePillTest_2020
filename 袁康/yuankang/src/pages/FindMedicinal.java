@@ -11,6 +11,7 @@ import utils.BaseAction;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.touch.offset.PointOption;
 
 public class FindMedicinal {
 	private AndroidDriver<AndroidElement> driver;
@@ -49,38 +50,46 @@ public class FindMedicinal {
 		return driver.findElementById("com.onepilltest:id/btn_1");
 	}
 	private AndroidElement btn_follow() {
-		return driver.findElementByXPath("//*[@text='ÊÕ²Ø']");
+		return driver.findElementByXPath("//*[@text='æ”¶è—']");
 	}
 	private AndroidElement btn_unfollow() {
-		return driver.findElementByXPath("//*[@text='ÒÑÊÕ²Ø']");
+		return driver.findElementByXPath("//*[@text='å·²æ”¶è—']");
 	}
 	private AndroidElement btn_ask() {
-		return driver.findElementByXPath("//*[@text='×ÉÑ¯']");
+		return driver.findElementByXPath("//*[@text='å’¨è¯¢']");
 	}
 	private AndroidElement btn_summary() {
-		return driver.findElementByXPath("//*[@text='¸ÅÊö']");
+		return driver.findElementByXPath("//*[@text='æ¦‚è¿°']");
 	}
 	private AndroidElement btn_func() {
-		return driver.findElementByXPath("//*[@text='¹¦ÄÜÖ÷ÖÎ']");
+		return driver.findElementByXPath("//*[@text='åŠŸèƒ½ä¸»æ²»']");
 	}
 	private AndroidElement btn_effect() {
-		return driver.findElementByXPath("//*[@text='¸±×÷ÓÃ']");
+		return driver.findElementByXPath("//*[@text='å‰¯ä½œç”¨']");
 	}
 	private AndroidElement btn_use() {
-		return driver.findElementByXPath("//*[@text='Ê¹ÓÃËµÃ÷']");
+		return driver.findElementByXPath("//*[@text='ä½¿ç”¨è¯´æ˜']");
 	}
 	private AndroidElement btn_shop() {
-		return driver.findElementByXPath("//*[@text='Ìí¼ÓÖÁ¹ºÎï³µ']");
+		return driver.findElementByXPath("//*[@text='æ·»åŠ è‡³è´­ç‰©è½¦']");
 	}
 	
 	private AndroidElement btn_tel() {
-		return driver.findElementByXPath("//*[@text='ÁªÏµµç»°']");
+		return driver.findElementByXPath("//*[@text='è”ç³»ç”µè¯']");
 	}
 	
 	private AndroidElement btn_back() {
+		return driver.findElementById("com.onepilltest:id/findpatient_left");
+	}
+	private AndroidElement btn_doc_back() {
 		return driver.findElementById("com.onepilltest:id/dc_details_back");
 	}
-
+	private AndroidElement btn_doc_fol(){
+		return driver.findElementById("com.onepilltest:id/doctor_focus_img");
+	}
+	public void find(){
+		action.click(find_medicinal());
+	}
 	public void search(String content) throws InterruptedException {
 		action.click(find_medicinal());
 		Thread.sleep(2000);
@@ -106,5 +115,34 @@ public class FindMedicinal {
 	public void follow(){
 		action.click(btn_follow());
 	}
-	
+	public void unfollow(){
+		action.click(btn_unfollow());
+	}
+	public void buy(){
+		action.click(btn_shop());
+	}
+	public void func(){
+		action.click(btn_func());
+	}
+	public void effect(){
+		action.click(btn_effect());
+	}
+	public void use(){
+		action.click(btn_use());
+	}
+	public void ask(){
+		action.click(btn_ask());
+	}
+	public void swip(PointOption fromOption, PointOption toOption){
+		action.swip(fromOption, toOption);
+	}
+	public void doc_fol(){
+		action.click(btn_doc_fol());
+	}
+	public void back(){
+		action.click(btn_back());
+	}
+	public void doc_back(){
+		action.click(btn_doc_back());
+	}
 }
