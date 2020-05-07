@@ -1,25 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="17" passed="17">
+<testng-results skipped="48" failed="0" total="48" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="255488" started-at="2020-04-29T13:51:07Z" finished-at="2020-04-29T13:55:23Z">
+  <suite name="Default suite" duration-ms="6084" started-at="2020-05-07T08:27:39Z" finished-at="2020-05-07T08:27:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="255488" started-at="2020-04-29T13:51:07Z" finished-at="2020-04-29T13:55:23Z">
+    <test name="Default test" duration-ms="6084" started-at="2020-05-07T08:27:39Z" finished-at="2020-05-07T08:27:45Z">
       <class name="lixiaoyue.testcase.WeTest">
-        <test-method status="PASS" signature="globalSetup()[pri:0, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="globalSetup" is-config="true" duration-ms="26157" started-at="2020-04-29T21:50:41Z" finished-at="2020-04-29T21:51:07Z">
+        <test-method status="FAIL" signature="globalSetup()[pri:0, instance:lixiaoyue.testcase.WeTest@31610302]" name="globalSetup" is-config="true" duration-ms="0" started-at="2020-05-07T16:26:11Z" finished-at="2020-05-07T16:26:11Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.onepilltest' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Y\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.onepilltest/.welcome.WelcomeActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DELL-5110', ip: '192.168.43.137', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.onepilltest' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Y\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.onepilltest/.welcome.WelcomeActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+    at getResponseForW3CError (C:\Users\Y\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Y\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DELL-5110', ip: '192.168.43.137', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.onepilltest' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Y\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.onepilltest/.welcome.WelcomeActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DELL-5110', ip: '192.168.43.137', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.onepilltest' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Y\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.onepilltest/.welcome.WelcomeActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+    at getResponseForW3CError (C:\Users\Y\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Y\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DELL-5110', ip: '192.168.43.137', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+	at lixiaoyue.base.BaseTest.globalSetup(BaseTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	... 33 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.onepilltest' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Y\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.onepilltest/.welcome.WelcomeActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DELL-5110', ip: '192.168.43.137', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.onepilltest' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Y\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.onepilltest/.welcome.WelcomeActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+    at getResponseForW3CError (C:\Users\Y\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Y\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="login" duration-ms="6028" started-at="2020-04-29T21:51:08Z" finished-at="2020-04-29T21:51:14Z">
+        <test-method status="SKIP" signature="login()[pri:0, instance:lixiaoyue.testcase.WeTest@31610302]" name="login" duration-ms="1" started-at="2020-05-07T16:27:39Z" finished-at="2020-05-07T16:27:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="ClickWe()[pri:1, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="ClickWe" duration-ms="6194" started-at="2020-04-29T21:51:14Z" description="点击我们" finished-at="2020-04-29T21:51:20Z">
+        <test-method status="SKIP" signature="ClickWe()[pri:1, instance:lixiaoyue.testcase.WeTest@31610302]" name="ClickWe" duration-ms="1" started-at="2020-05-07T16:27:39Z" description="点击我们" finished-at="2020-05-07T16:27:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickWe -->
-        <test-method status="PASS" signature="EditQuestion(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="EditQuestion" duration-ms="16460" started-at="2020-04-29T21:51:22Z" description="输入问题" data-provider="help" finished-at="2020-04-29T21:51:38Z">
+        <test-method status="SKIP" signature="EditQuestion(java.lang.String)[pri:2, instance:lixiaoyue.testcase.WeTest@31610302]" name="EditQuestion" duration-ms="1" started-at="2020-05-07T16:27:43Z" description="输入问题" data-provider="help" finished-at="2020-05-07T16:27:43Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditQuestion -->
-        <test-method status="PASS" signature="EditQuestion(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="EditQuestion" duration-ms="16647" started-at="2020-04-29T21:51:38Z" description="输入问题" data-provider="help" finished-at="2020-04-29T21:51:55Z">
+        <test-method status="SKIP" signature="EditQuestion(java.lang.String)[pri:2, instance:lixiaoyue.testcase.WeTest@31610302]" name="EditQuestion" duration-ms="0" started-at="2020-05-07T16:27:43Z" description="输入问题" data-provider="help" finished-at="2020-05-07T16:27:43Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditQuestion -->
-        <test-method status="PASS" signature="EditQuestion(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="EditQuestion" duration-ms="16877" started-at="2020-04-29T21:51:55Z" description="输入问题" data-provider="help" finished-at="2020-04-29T21:52:12Z">
+        <test-method status="SKIP" signature="EditQuestion(java.lang.String)[pri:2, instance:lixiaoyue.testcase.WeTest@31610302]" name="EditQuestion" duration-ms="1" started-at="2020-05-07T16:27:43Z" description="输入问题" data-provider="help" finished-at="2020-05-07T16:27:43Z">
           <params>
             <param index="0">
               <value>
@@ -52,7 +148,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditQuestion -->
-        <test-method status="PASS" signature="EditQuestion(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="EditQuestion" duration-ms="16552" started-at="2020-04-29T21:52:12Z" description="输入问题" data-provider="help" finished-at="2020-04-29T21:52:28Z">
+        <test-method status="SKIP" signature="EditQuestion(java.lang.String)[pri:2, instance:lixiaoyue.testcase.WeTest@31610302]" name="EditQuestion" duration-ms="1" started-at="2020-05-07T16:27:43Z" description="输入问题" data-provider="help" finished-at="2020-05-07T16:27:43Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +159,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditQuestion -->
-        <test-method status="PASS" signature="EditQuestion(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="EditQuestion" duration-ms="17302" started-at="2020-04-29T21:52:28Z" description="输入问题" data-provider="help" finished-at="2020-04-29T21:52:46Z">
+        <test-method status="SKIP" signature="EditQuestion(java.lang.String)[pri:2, instance:lixiaoyue.testcase.WeTest@31610302]" name="EditQuestion" duration-ms="2" started-at="2020-05-07T16:27:43Z" description="输入问题" data-provider="help" finished-at="2020-05-07T16:27:43Z">
           <params>
             <param index="0">
               <value>
@@ -74,15 +170,196 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditQuestion -->
-        <test-method status="PASS" signature="ClickFirst()[pri:7, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="ClickFirst" duration-ms="5697" started-at="2020-04-29T21:52:46Z" description="点击首页" finished-at="2020-04-29T21:52:52Z">
+        <test-method status="SKIP" signature="edit_question_tel(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@31610302]" name="edit_question_tel" duration-ms="0" started-at="2020-05-07T16:27:43Z" description="输入电话 " data-provider="help" finished-at="2020-05-07T16:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[哈哈哈哈]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_question_tel -->
+        <test-method status="SKIP" signature="edit_question_tel(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@31610302]" name="edit_question_tel" duration-ms="0" started-at="2020-05-07T16:27:43Z" description="输入电话 " data-provider="help" finished-at="2020-05-07T16:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_question_tel -->
+        <test-method status="SKIP" signature="edit_question_tel(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@31610302]" name="edit_question_tel" duration-ms="1" started-at="2020-05-07T16:27:43Z" description="输入电话 " data-provider="help" finished-at="2020-05-07T16:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_question_tel -->
+        <test-method status="SKIP" signature="edit_question_tel(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@31610302]" name="edit_question_tel" duration-ms="0" started-at="2020-05-07T16:27:43Z" description="输入电话 " data-provider="help" finished-at="2020-05-07T16:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_question_tel -->
+        <test-method status="SKIP" signature="edit_question_tel(java.lang.String)[pri:3, instance:lixiaoyue.testcase.WeTest@31610302]" name="edit_question_tel" duration-ms="0" started-at="2020-05-07T16:27:43Z" description="输入电话 " data-provider="help" finished-at="2020-05-07T16:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_question_tel -->
+        <test-method status="SKIP" signature="edit_question_tel_help(java.lang.String)[pri:4, instance:lixiaoyue.testcase.WeTest@31610302]" name="edit_question_tel_help" duration-ms="1" started-at="2020-05-07T16:27:44Z" description="输入问题概述" data-provider="help" finished-at="2020-05-07T16:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[哈哈哈哈]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_question_tel_help -->
+        <test-method status="SKIP" signature="edit_question_tel_help(java.lang.String)[pri:4, instance:lixiaoyue.testcase.WeTest@31610302]" name="edit_question_tel_help" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="输入问题概述" data-provider="help" finished-at="2020-05-07T16:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_question_tel_help -->
+        <test-method status="SKIP" signature="edit_question_tel_help(java.lang.String)[pri:4, instance:lixiaoyue.testcase.WeTest@31610302]" name="edit_question_tel_help" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="输入问题概述" data-provider="help" finished-at="2020-05-07T16:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_question_tel_help -->
+        <test-method status="SKIP" signature="edit_question_tel_help(java.lang.String)[pri:4, instance:lixiaoyue.testcase.WeTest@31610302]" name="edit_question_tel_help" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="输入问题概述" data-provider="help" finished-at="2020-05-07T16:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_question_tel_help -->
+        <test-method status="SKIP" signature="edit_question_tel_help(java.lang.String)[pri:4, instance:lixiaoyue.testcase.WeTest@31610302]" name="edit_question_tel_help" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="输入问题概述" data-provider="help" finished-at="2020-05-07T16:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_question_tel_help -->
+        <test-method status="SKIP" signature="SelectDoctor(java.lang.String)[pri:5, instance:lixiaoyue.testcase.WeTest@31610302]" name="SelectDoctor" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="输入QQ" data-provider="help" finished-at="2020-05-07T16:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[哈哈哈哈]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDoctor -->
+        <test-method status="SKIP" signature="SelectDoctor(java.lang.String)[pri:5, instance:lixiaoyue.testcase.WeTest@31610302]" name="SelectDoctor" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="输入QQ" data-provider="help" finished-at="2020-05-07T16:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDoctor -->
+        <test-method status="SKIP" signature="SelectDoctor(java.lang.String)[pri:5, instance:lixiaoyue.testcase.WeTest@31610302]" name="SelectDoctor" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="输入QQ" data-provider="help" finished-at="2020-05-07T16:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDoctor -->
+        <test-method status="SKIP" signature="SelectDoctor(java.lang.String)[pri:5, instance:lixiaoyue.testcase.WeTest@31610302]" name="SelectDoctor" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="输入QQ" data-provider="help" finished-at="2020-05-07T16:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDoctor -->
+        <test-method status="SKIP" signature="SelectDoctor(java.lang.String)[pri:5, instance:lixiaoyue.testcase.WeTest@31610302]" name="SelectDoctor" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="输入QQ" data-provider="help" finished-at="2020-05-07T16:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDoctor -->
+        <test-method status="SKIP" signature="ClickGet()[pri:6, instance:lixiaoyue.testcase.WeTest@31610302]" name="ClickGet" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="关注与收藏" finished-at="2020-05-07T16:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickGet -->
+        <test-method status="SKIP" signature="ClickDoc()[pri:7, instance:lixiaoyue.testcase.WeTest@31610302]" name="ClickDoc" duration-ms="1" started-at="2020-05-07T16:27:44Z" description="医生" finished-at="2020-05-07T16:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickDoc -->
+        <test-method status="SKIP" signature="ClickMed()[pri:8, instance:lixiaoyue.testcase.WeTest@31610302]" name="ClickMed" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="药品" finished-at="2020-05-07T16:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickMed -->
+        <test-method status="SKIP" signature="ClickBack()[pri:9, instance:lixiaoyue.testcase.WeTest@31610302]" name="ClickBack" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="返回" finished-at="2020-05-07T16:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickBack -->
+        <test-method status="SKIP" signature="ClickFirst()[pri:10, instance:lixiaoyue.testcase.WeTest@31610302]" name="ClickFirst" duration-ms="1" started-at="2020-05-07T16:27:44Z" description="点击首页" finished-at="2020-05-07T16:27:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickFirst -->
-        <test-method status="PASS" signature="findDoctor()[pri:8, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="findDoctor" duration-ms="5844" started-at="2020-04-29T21:52:52Z" description="找医生" finished-at="2020-04-29T21:52:57Z">
+        <test-method status="SKIP" signature="findDoctor()[pri:11, instance:lixiaoyue.testcase.WeTest@31610302]" name="findDoctor" duration-ms="1" started-at="2020-05-07T16:27:44Z" description="找医生" finished-at="2020-05-07T16:27:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findDoctor -->
-        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18020" started-at="2020-04-29T21:52:57Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:53:15Z">
+        <test-method status="SKIP" signature="Select_Doctor(java.lang.String)[pri:12, instance:lixiaoyue.testcase.WeTest@31610302]" name="Select_Doctor" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="搜索框查找医生" data-provider="data" finished-at="2020-05-07T16:27:44Z">
           <params>
             <param index="0">
               <value>
@@ -93,7 +370,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_Doctor -->
-        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="17996" started-at="2020-04-29T21:53:15Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:53:33Z">
+        <test-method status="SKIP" signature="Select_Doctor(java.lang.String)[pri:12, instance:lixiaoyue.testcase.WeTest@31610302]" name="Select_Doctor" duration-ms="1" started-at="2020-05-07T16:27:44Z" description="搜索框查找医生" data-provider="data" finished-at="2020-05-07T16:27:44Z">
           <params>
             <param index="0">
               <value>
@@ -104,7 +381,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_Doctor -->
-        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18069" started-at="2020-04-29T21:53:33Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:53:52Z">
+        <test-method status="SKIP" signature="Select_Doctor(java.lang.String)[pri:12, instance:lixiaoyue.testcase.WeTest@31610302]" name="Select_Doctor" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="搜索框查找医生" data-provider="data" finished-at="2020-05-07T16:27:44Z">
           <params>
             <param index="0">
               <value>
@@ -115,7 +392,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_Doctor -->
-        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="17967" started-at="2020-04-29T21:53:52Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:54:10Z">
+        <test-method status="SKIP" signature="Select_Doctor(java.lang.String)[pri:12, instance:lixiaoyue.testcase.WeTest@31610302]" name="Select_Doctor" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="搜索框查找医生" data-provider="data" finished-at="2020-05-07T16:27:44Z">
           <params>
             <param index="0">
               <value>
@@ -126,7 +403,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_Doctor -->
-        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18062" started-at="2020-04-29T21:54:10Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:54:28Z">
+        <test-method status="SKIP" signature="Select_Doctor(java.lang.String)[pri:12, instance:lixiaoyue.testcase.WeTest@31610302]" name="Select_Doctor" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="搜索框查找医生" data-provider="data" finished-at="2020-05-07T16:27:44Z">
           <params>
             <param index="0">
               <value>
@@ -137,7 +414,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_Doctor -->
-        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18492" started-at="2020-04-29T21:54:28Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:54:46Z">
+        <test-method status="SKIP" signature="Select_Doctor(java.lang.String)[pri:12, instance:lixiaoyue.testcase.WeTest@31610302]" name="Select_Doctor" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="搜索框查找医生" data-provider="data" finished-at="2020-05-07T16:27:44Z">
           <params>
             <param index="0">
               <value>
@@ -148,7 +425,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_Doctor -->
-        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18346" started-at="2020-04-29T21:54:46Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:55:04Z">
+        <test-method status="SKIP" signature="Select_Doctor(java.lang.String)[pri:12, instance:lixiaoyue.testcase.WeTest@31610302]" name="Select_Doctor" duration-ms="0" started-at="2020-05-07T16:27:44Z" description="搜索框查找医生" data-provider="data" finished-at="2020-05-07T16:27:44Z">
           <params>
             <param index="0">
               <value>
@@ -159,7 +436,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_Doctor -->
-        <test-method status="PASS" signature="Select_Doctor(java.lang.String)[pri:9, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="Select_Doctor" duration-ms="18515" started-at="2020-04-29T21:55:04Z" description="搜索框查找医生" data-provider="data" finished-at="2020-04-29T21:55:23Z">
+        <test-method status="SKIP" signature="Select_Doctor(java.lang.String)[pri:12, instance:lixiaoyue.testcase.WeTest@31610302]" name="Select_Doctor" duration-ms="0" started-at="2020-05-07T16:27:45Z" description="搜索框查找医生" data-provider="data" finished-at="2020-05-07T16:27:45Z">
           <params>
             <param index="0">
               <value>
@@ -170,7 +447,139 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_Doctor -->
-        <test-method status="PASS" signature="globalTearDown()[pri:0, instance:lixiaoyue.testcase.WeTest@68be2bc2]" name="globalTearDown" is-config="true" duration-ms="4514" started-at="2020-04-29T21:55:23Z" finished-at="2020-04-29T21:55:28Z">
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="0" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_one]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="1" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="0" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="1" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="0" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_five]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="0" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="0" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_seven]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="1" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_eight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="1" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_nine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="1" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_ten]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="0" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_eleven]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="select_ill(java.lang.String)[pri:13, instance:lixiaoyue.testcase.WeTest@31610302]" name="select_ill" duration-ms="0" started-at="2020-05-07T16:27:45Z" description="按病症匹配医生" data-provider="ill" finished-at="2020-05-07T16:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.onepilltest:id/tb_twelve]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_ill -->
+        <test-method status="SKIP" signature="globalTearDown()[pri:0, instance:lixiaoyue.testcase.WeTest@31610302]" name="globalTearDown" is-config="true" duration-ms="0" started-at="2020-05-07T16:27:45Z" finished-at="2020-05-07T16:27:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalTearDown -->

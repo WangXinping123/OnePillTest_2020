@@ -5,10 +5,21 @@
     <classes>
       <class name="lixiaoyue.testcase.WeTest">
         <methods>
-          <include name="findDoctor"/>
-          <include name="globalTearDown"/>
-          <include name="Select_Doctor" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="SelectDoctor"/>
+          <include name="ClickFirst"/>
+          <include name="ClickDoc"/>
+          <include name="ClickWe"/>
+          <include name="select_ill"/>
+          <include name="ClickMed"/>
           <include name="globalSetup"/>
+          <include name="EditQuestion"/>
+          <include name="findDoctor"/>
+          <include name="ClickBack"/>
+          <include name="Select_Doctor"/>
+          <include name="edit_question_tel_help"/>
+          <include name="edit_question_tel"/>
+          <include name="ClickGet"/>
+          <include name="login"/>
         </methods>
       </class> <!-- lixiaoyue.testcase.WeTest -->
     </classes>

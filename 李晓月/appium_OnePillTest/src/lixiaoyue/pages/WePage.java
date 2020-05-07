@@ -49,6 +49,30 @@ public class WePage {
 			
 	}
 	
+	//关注与收藏
+	private AndroidElement bt_get() {
+		return driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.LinearLayout[2]/android.widget.TextView");
+			
+	}
+	
+	//医生
+	private AndroidElement bt_doc() {
+		return driver.findElementById("focus_list_tab1");
+				
+	}	
+	
+	//药品
+	private AndroidElement bt_med() {
+		return driver.findElementById("focus_list_tab2");
+				
+	}
+	
+	//返回
+	private AndroidElement bt_back() {
+		return driver.findElementById("focus_list_back");
+				
+	}
+	
 	
 //**********************************找医生*******************************//
 	//首页
@@ -61,6 +85,7 @@ public class WePage {
 	private AndroidElement bt_doctor() {
 		return driver.findElementById("iv_find_doctor");
 	}
+	
 	//搜索框
 //	com.onepilltest:id/findoctor_select
 	private AndroidElement select_find() {
@@ -78,17 +103,17 @@ public class WePage {
 		return driver.findElementById(ill);
 	}
 
-	//返回键（未成功）
+	//返回键
 	private AndroidElement btn_back() {
 		return driver.findElementById("dc_details_back");
 	}
 	
 	
-	                      //************方法*****************//	
+//**************************************方法*******************************************//	
 	
 	
 	
-//***************************帮助与反馈***************************//	
+				//*****************帮助与反馈*************//	
 	//点击我们
 	public void click_we() throws Exception {
 		action.click(bt_we());
@@ -147,7 +172,33 @@ public class WePage {
 		Thread.sleep(2000);
 	}
 	
-//*******************************找医生*******************************//		
+	         //***************关注与收藏*****************//	
+	//点击关注与收藏
+	public void click_get() throws Exception {
+		action.click(bt_get());
+		Thread.sleep(2000);
+	}
+	
+	//点击医生
+	public void click_doc() throws Exception {
+		action.click(bt_doc());
+		Thread.sleep(2000);
+	}
+	
+	//点击药品
+	public void click_med() throws Exception {
+		action.click(bt_med());
+		Thread.sleep(2000);
+	}
+	
+	//点击返回
+	public void click_back() throws Exception {
+		action.click(bt_back());
+		Thread.sleep(2000);
+	}
+	
+	
+           //*****************找医生******************//		
 		
 	//点击首页
 	public void click_first() throws Exception {
