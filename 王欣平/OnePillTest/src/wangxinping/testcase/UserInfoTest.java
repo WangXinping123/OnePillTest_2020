@@ -16,6 +16,13 @@ import wangxinping.base.BaseTest;
 import wangxinping.pages.UserInfoPage;
 
 
+/**
+ * 项目名称：OnePillTest   
+ * 类名称：UserInfoTest   
+ * 类描述： 
+ * @author wangxinping  
+ * @version  
+ */
 public class UserInfoTest extends BaseTest{
 	UserInfoPage userInfoPage;
 

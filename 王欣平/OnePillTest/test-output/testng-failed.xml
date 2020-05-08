@@ -3,17 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="wangxinping.testcase.AddressTest"/>
+      <class name="wangxinping.testcase.UserInfoTest"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="wangxinping.testcase.AddressTest">
-        <methods>
-          <include name="globalSetup"/>
-          <include name="test_edit_address_address" invocation-numbers="2"/>
-        </methods>
-      </class> <!-- wangxinping.testcase.AddressTest -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

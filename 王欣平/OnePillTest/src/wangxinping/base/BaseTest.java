@@ -12,6 +12,13 @@ import org.testng.annotations.BeforeSuite;
 import java.io.IOException;
 import java.net.URL;
 
+/**
+ * 项目名称：OnePillTest   
+ * 类名称：BaseTest   
+ * 类描述： 
+ * @author wangxinping 
+ * @version  
+ */
 public abstract class BaseTest {
 
 	private static AppiumDriverLocalService service;

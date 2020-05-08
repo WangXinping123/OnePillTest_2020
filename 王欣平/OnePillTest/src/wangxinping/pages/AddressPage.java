@@ -8,6 +8,13 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import wangxinping.utils.BaseAction;
 
+/**
+ * 项目名称：OnePillTest   
+ * 类名称：AddressPage   
+ * 类描述： 
+ * @author wangxinping 
+ * @version  
+ */
 public class AddressPage {
 	private AndroidDriver<AndroidElement> driver;
 	BaseAction action;

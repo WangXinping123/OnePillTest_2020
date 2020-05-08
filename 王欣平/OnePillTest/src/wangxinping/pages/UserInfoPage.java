@@ -16,6 +16,13 @@ import io.appium.java_client.android.AndroidTouchAction;
 import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 
+/**
+ * 项目名称：OnePillTest   
+ * 类名称：UserInfoPage   
+ * 类描述： 
+ * @author wangxinping 
+ * @version  
+ */
 public class UserInfoPage {
 	private AndroidDriver<AndroidElement> driver;
 	BaseAction action;

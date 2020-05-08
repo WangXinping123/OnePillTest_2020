@@ -10,6 +10,12 @@ import wangxinping.pages.AddressPage;
 import wangxinping.pages.UserInfoPage;
 import wangxinping.utils.ReadProperties;
 
+/**
+ * 项目名称：OnePillTest   
+ * 类名称：AddressTest   
+ * @author wangxinping 
+ * @version  
+ */
 public class AddressTest extends BaseTest {
 	AddressPage addressPage;
 
@@ -81,7 +87,7 @@ public class AddressTest extends BaseTest {
 		softAssert.assertEquals(actResult, expectResult);
 		Thread.sleep(3000);
 	}
-	
+
 	@DataProvider(name = "address_code")
 	public Object[][] getExcelData5() throws Exception {
 		return new ExcelDataProvider().getTestDataByExcel(ReadProperties.getPropertyValue("data_path") + "address.xlsx",
@@ -96,7 +102,7 @@ public class AddressTest extends BaseTest {
 		softAssert.assertEquals(actResult, expectResult);
 		Thread.sleep(3000);
 	}
-	
+
 	@DataProvider(name = "add_address")
 	public Object[][] getExcelData6() throws Exception {
 		return new ExcelDataProvider().getTestDataByExcel(ReadProperties.getPropertyValue("data_path") + "address.xlsx",
@@ -104,15 +110,14 @@ public class AddressTest extends BaseTest {
 	}
 
 	@Test(priority = 25, dataProvider = "add_address", description = "添加地址")
-	public void test_add_address(String address_name,String address_phone,String address_address,
-			String address_more,String address_postalCode, String expectResult) throws InterruptedException {
+	public void test_add_address(String address_name, String address_phone, String address_address, String address_more,
+			String address_postalCode, String expectResult) throws InterruptedException {
 
-		String actResult = addressPage.add_address(address_name, address_phone, 
-				address_address, address_more, address_postalCode);
+		String actResult = addressPage.add_address(address_name, address_phone, address_address, address_more,
+				address_postalCode);
 		SoftAssert softAssert = new SoftAssert();
 		softAssert.assertEquals(actResult, expectResult);
 		Thread.sleep(3000);
 	}
-	
 
 }
