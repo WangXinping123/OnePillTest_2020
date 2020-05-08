@@ -18,7 +18,10 @@ import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 import io.appium.java_client.touch.offset.PointOption;
-
+/*
+ * 袁康
+ *
+ * */
 public class BaseAction {
 	public AndroidDriver<AndroidElement> driver;
 	public AndroidTouchAction action;
@@ -28,8 +31,9 @@ public class BaseAction {
 		action = new AndroidTouchAction(driver);
 
 	}
-
-	
+	public void back(){
+		driver.navigate().back();
+	}
 	public void click(By by) {
 		driver.findElement(by).click();
 	}

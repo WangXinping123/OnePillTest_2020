@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14450" started-at="2020-04-29T10:11:37Z" finished-at="2020-04-29T10:11:51Z">
+  <suite name="Default suite" duration-ms="11896" started-at="2020-05-08T03:37:34Z" finished-at="2020-05-08T03:37:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14450" started-at="2020-04-29T10:11:37Z" finished-at="2020-04-29T10:11:51Z">
+    <test name="Default test" duration-ms="11896" started-at="2020-05-08T03:37:34Z" finished-at="2020-05-08T03:37:46Z">
       <class name="testcase.FindMedicinalTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:testcase.FindMedicinalTest@33a10788]" name="startUp" is-config="true" duration-ms="9538" started-at="2020-04-29T18:11:37Z" finished-at="2020-04-29T18:11:46Z">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:testcase.FindMedicinalTest@3834d63f]" name="startUp" is-config="true" duration-ms="9761" started-at="2020-05-08T11:37:34Z" finished-at="2020-05-08T11:37:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="start()[pri:0, instance:testcase.FindMedicinalTest@33a10788]" name="start" is-config="true" duration-ms="22" started-at="2020-04-29T18:11:46Z" finished-at="2020-04-29T18:11:46Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:testcase.FindMedicinalTest@3834d63f]" name="start" is-config="true" duration-ms="6" started-at="2020-05-08T11:37:44Z" finished-at="2020-05-08T11:37:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="serach()[pri:0, instance:testcase.FindMedicinalTest@33a10788]" name="serach" duration-ms="4878" started-at="2020-04-29T18:11:46Z" finished-at="2020-04-29T18:11:51Z">
+        <test-method status="PASS" signature="back()[pri:16, instance:testcase.FindMedicinalTest@3834d63f]" name="back" duration-ms="2118" started-at="2020-05-08T11:37:44Z" finished-at="2020-05-08T11:37:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- serach -->
+        </test-method> <!-- back -->
       </class> <!-- testcase.FindMedicinalTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

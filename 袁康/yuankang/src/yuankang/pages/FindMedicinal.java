@@ -12,7 +12,10 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.touch.offset.PointOption;
-
+/*
+ * 袁康
+ *
+ * */
 public class FindMedicinal {
 	private AndroidDriver<AndroidElement> driver;
 	BaseAction action;
@@ -50,10 +53,10 @@ public class FindMedicinal {
 		return driver.findElementById("com.onepilltest:id/btn_1");
 	}
 	private AndroidElement btn_follow() {
-		return driver.findElementByXPath("//*[@text='收藏']");
+		return driver.findElementByXPath("//*[@text='关注']");
 	}
 	private AndroidElement btn_unfollow() {
-		return driver.findElementByXPath("//*[@text='已收藏']");
+		return driver.findElementByXPath("//*[@text='已关注']");
 	}
 	private AndroidElement btn_ask() {
 		return driver.findElementByXPath("//*[@text='咨询']");
@@ -144,5 +147,8 @@ public class FindMedicinal {
 	}
 	public void doc_back(){
 		action.click(btn_doc_back());
+	}
+	public void act_back(){
+		action.back();
 	}
 }
