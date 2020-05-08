@@ -1,4 +1,4 @@
-package yuankang.pages;
+package pages;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.apache.xmlbeans.impl.xb.xsdschema.impl.PublicImpl;
 import org.openqa.selenium.By;
 import org.seleniumhq.jetty9.security.authentication.LoginAuthenticator;
 
-import yuankang.utils.BaseAction;
+import utils.BaseAction;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;

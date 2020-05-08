@@ -1,4 +1,4 @@
-package yuankang.dataprovider;
+package dataprovider;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,7 +15,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 /*
- * Excel锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷
+ * Excel数据驱动类
  */
 
 public class ExcelDataProvider {
@@ -36,16 +36,16 @@ public class ExcelDataProvider {
 			wbook = new HSSFWorkbook(inputstream);
 		}
 		Sheet sheet = wbook.getSheet(sheetName);
-		// 通锟斤拷sheetName锟斤拷锟斤拷Sheet锟斤拷锟斤拷
+		// 通过sheetName生成Sheet对象
 		int rowCount = sheet.getLastRowNum() - sheet.getFirstRowNum();
-		// 锟斤拷取锟斤拷前sheet锟斤拷锟斤拷锟斤拷锟叫号猴拷锟叫号讹拷锟角从ｏ拷锟斤拷始
+		// 获取当前sheet行数，行号和列号都是从０开始
 		List<Object[]> records = new ArrayList<Object[]>();
-		// 使锟斤拷双循锟斤拷锟斤拷取excel锟侥硷拷锟斤拷锟斤拷锟斤拷锟斤拷锟捷ｏ拷锟斤拷一锟叫筹拷锟解）
+		// 使用双循环获取excel文件的所有数据（第一行除外）
 		for (int i = 1; i < rowCount + 1; i++) {
 			Row row = sheet.getRow(i);
 			String fields[] = new String[row.getLastCellNum()];
 			for (int j = 0; j < row.getLastCellNum(); j++) {
-				// 锟斤拷取锟斤拷元锟斤拷锟斤拷锟斤拷
+				// 获取单元格数据
 				fields[j] = row.getCell(j).getStringCellValue();
 			}
 			records.add(fields);

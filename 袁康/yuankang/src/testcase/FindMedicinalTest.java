@@ -1,4 +1,4 @@
-package yuankang.testcase;
+package testcase;
 
 import org.apache.xmlbeans.impl.xb.xsdschema.impl.PublicImpl;
 import org.seleniumhq.jetty9.security.authentication.LoginAuthenticator;
@@ -6,11 +6,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import yuankang.base.BaseTest;
-import yuankang.dataprovider.ExcelDataProvider;
+import base.BaseTest;
+import dataprovider.ExcelDataProvider;
 import io.appium.java_client.touch.offset.PointOption;
-import yuankang.pages.FindMedicinal;
-import yuankang.utils.ReadProperties;
+import pages.FindMedicinal;
+import utils.ReadProperties;
 /*
  * 袁康
  *

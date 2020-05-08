@@ -1,4 +1,4 @@
-package yuankang.utils;
+package utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

@@ -1,4 +1,4 @@
-package yuankang.base;
+package base;
 
 import java.net.MalformedURLException;
 import java.net.URL;
