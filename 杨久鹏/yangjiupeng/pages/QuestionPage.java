@@ -3,7 +3,11 @@ package yangjiupeng.pages;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import yangjiupeng.utils.BaseAction;
-
+/**
+ * 
+ * @author 杨久鹏
+ *
+ */
 public class QuestionPage {
 	private AndroidDriver<AndroidElement> driver;
 	BaseAction action;

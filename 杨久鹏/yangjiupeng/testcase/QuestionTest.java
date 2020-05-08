@@ -15,7 +15,11 @@ import yangjiupeng.pages.HomePage;
 import yangjiupeng.pages.LoginPage;
 import yangjiupeng.pages.QuestionPage;
 import yangjiupeng.pages.WelcamePage;
-
+/**
+ * 
+ * @author 杨久鹏
+ *
+ */
 public class QuestionTest extends BaseTest{
 	
 	@BeforeClass

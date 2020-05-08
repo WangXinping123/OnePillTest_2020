@@ -10,7 +10,11 @@ import yangjiupeng.pages.CommentPage;
 import yangjiupeng.pages.HomePage;
 import yangjiupeng.pages.LoginPage;
 import yangjiupeng.pages.WelcamePage;
-
+/**
+ * 
+ * @author 杨久鹏
+ *
+ */
 public class HomePage_commentTest extends BaseTest{
 	@BeforeClass
 	public void patient() throws InterruptedException{

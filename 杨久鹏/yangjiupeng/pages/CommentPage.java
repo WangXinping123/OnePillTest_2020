@@ -9,7 +9,13 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.touch.offset.PointOption;
 import yangjiupeng.utils.BaseAction;
 
+/**
+ * 
+ * @author 杨久鹏
+ *
+ */
 public class CommentPage {
+	
 	private AndroidDriver<AndroidElement> driver;
 	BaseAction action;
 

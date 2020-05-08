@@ -1,0 +1,227 @@
+  bash arg: -p
+  bash arg: com.onepilltest
+  bash arg: --pct-touch
+  bash arg: 40
+  bash arg: --pct-motion
+  bash arg: 30
+  bash arg: --throttle
+  bash arg: 300
+  bash arg: --ignore-crashes
+  bash arg: --ignore-timeouts
+  bash arg: --ignore-security-exceptions
+  bash arg: --ignore-native-crashes
+  bash arg: --monitor-native-crashes
+  bash arg: -v
+  bash arg: -v
+  bash arg: -v
+  bash arg: 1000
+:Monkey: seed=1588848865780 count=1000
+:AllowPackage: com.onepilltest
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.camera.CameraLauncher (from package com.android.camera2)
+//   - NOT USING main activity com.google.android.apps.chrome.Main (from package com.android.chrome)
+//   - NOT USING main activity com.android.contacts.activities.PeopleActivity (from package com.android.contacts)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.google.android.apps.docs.app.NewMainProxyActivity (from package com.google.android.apps.docs)
+//   - NOT USING main activity com.google.android.maps.MapsActivity (from package com.google.android.apps.maps)
+//   - NOT USING main activity com.google.android.apps.messaging.ui.ConversationListActivity (from package com.google.android.apps.messaging)
+//   - NOT USING main activity com.google.android.apps.photos.home.HomeActivity (from package com.google.android.apps.photos)
+//   - NOT USING main activity com.android.calendar.AllInOneActivity (from package com.google.android.calendar)
+//   - NOT USING main activity com.android.deskclock.DeskClock (from package com.google.android.deskclock)
+//   - NOT USING main activity com.google.android.dialer.extensions.GoogleDialtactsActivity (from package com.google.android.dialer)
+//   - NOT USING main activity com.google.android.gm.ConversationListActivityGmail (from package com.google.android.gm)
+//   - NOT USING main activity com.android.music.activitymanagement.TopLevelActivity (from package com.google.android.music)
+//   - NOT USING main activity com.google.android.youtube.videos.EntryPoint (from package com.google.android.videos)
+//   - NOT USING main activity com.google.android.youtube.app.honeycomb.Shell$HomeActivity (from package com.google.android.youtube)
+//   - NOT USING main activity com.google.android.apps.wallpaper.picker.CategoryPickerActivity (from package com.google.android.apps.wallpaper)
+//   - NOT USING main activity com.android.documentsui.LauncherActivity (from package com.google.android.documentsui)
+//   - NOT USING main activity com.google.android.googlequicksearchbox.VoiceSearchActivity (from package com.google.android.googlequicksearchbox)
+//   - NOT USING main activity com.google.android.googlequicksearchbox.SearchActivity (from package com.google.android.googlequicksearchbox)
+//   - NOT USING main activity org.chromium.webview_shell.WebViewBrowserActivity (from package org.chromium.webview_shell)
+//   - NOT USING main activity com.example.jinmm.MainActivity (from package com.example.jinmm)
+//   + Using main activity com.onepilltest.welcome.WelcomeActivity (from package com.onepilltest)
+//   - NOT USING main activity io.appium.settings.Settings (from package io.appium.settings)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+//   - NOT USING main activity com.google.android.apps.nexuslauncher.NexusLauncherActivity (from package com.google.android.apps.nexuslauncher)
+//   - NOT USING main activity com.google.android.googlequicksearchbox.SearchActivity (from package com.google.android.googlequicksearchbox)
+// Seeded: 1588848865780
+// Event percentages:
+//   0: 40.0%
+//   1: 30.0%
+//   2: 0.8%
+//   3: 6.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 10.0%
+//   7: 6.0%
+//   8: 0.8%
+//   9: 0.8%
+//   10: 0.4%
+//   11: 5.2000003%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.onepilltest/.welcome.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.onepilltest/.welcome.WelcomeActivity } in package com.onepilltest
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 209    // KEYCODE_MUSIC
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.music/com.android.music.activitymanagement.TopLevelActivity } in package com.google.android.music
+:Sending Key (ACTION_UP): 209    // KEYCODE_MUSIC
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(965.0,1362.0)
+:Sending Touch (ACTION_UP): 0:(983.52563,1346.7021)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1400.0,1315.0)
+:Sending Touch (ACTION_MOVE): 0:(1404.4332,1312.4937)
+:Sending Touch (ACTION_UP): 0:(1411.4633,1307.051)
+    // Allowing start of Intent { cmp=com.onepilltest/.personal.FocusListActivity } in package com.onepilltest
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(869.0,663.0)
+:Sending Touch (ACTION_UP): 0:(874.31525,658.16516)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Key (ACTION_DOWN): 164    // KEYCODE_VOLUME_MUTE
+:Sending Key (ACTION_UP): 164    // KEYCODE_VOLUME_MUTE
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1338.0,1818.0)
+:Sending Touch (ACTION_UP): 0:(1347.1462,1829.5804)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(30.0,2074.0)
+:Sending Touch (ACTION_UP): 0:(30.59088,2066.2534)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(736.0,1297.0)
+:Sending Touch (ACTION_UP): 0:(726.6489,1282.2639)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(562.0,2107.0)
+:Sending Touch (ACTION_UP): 0:(571.16125,2106.8774)
+    // Injection Failed
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1204.0,539.0)
+:Sending Touch (ACTION_MOVE): 0:(1204.1891,540.3597)
+:Sending Touch (ACTION_MOVE): 0:(1204.559,540.9933)
+:Sending Touch (ACTION_MOVE): 0:(1204.7092,544.59796)
+:Sending Touch (ACTION_MOVE): 0:(1205.196,545.78186)
+:Sending Touch (ACTION_MOVE): 0:(1205.7024,549.709)
+:Sending Touch (ACTION_MOVE): 0:(1206.1726,554.9283)
+:Sending Touch (ACTION_MOVE): 0:(1206.1844,559.50604)
+:Sending Touch (ACTION_MOVE): 0:(1206.6807,564.5813)
+:Sending Touch (ACTION_MOVE): 0:(1207.1055,575.1025)
+:Sending Touch (ACTION_UP): 0:(1207.5033,575.9633)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(857.0,53.0)
+:Sending Touch (ACTION_UP): 0:(869.2891,47.22117)
+Sleeping for 300 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(16.0,2074.0)
+:Sending Touch (ACTION_UP): 0:(36.61505,2074.3418)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(59.0,986.0)
+:Sending Touch (ACTION_MOVE): 0:(43.296234,985.8606)
+:Sending Touch (ACTION_MOVE): 0:(22.976974,985.71826)
+:Sending Touch (ACTION_MOVE): 0:(19.853132,985.7118)
+:Sending Touch (ACTION_MOVE): 0:(4.1239004,985.71173)
+:Sending Touch (ACTION_MOVE): 0:(0.0,985.35065)
+:Sending Touch (ACTION_MOVE): 0:(0.0,985.322)
+:Sending Touch (ACTION_UP): 0:(0.0,985.1285)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(460.0,341.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(459.33392,357.9176) 1:(73.0,682.0)
+:Sending Touch (ACTION_MOVE): 0:(457.87497,371.90582) 1:(90.610115,670.4883)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(456.9001,377.98486) 1:(107.03291,657.416)
+:Sending Touch (ACTION_UP): 0:(456.83633,395.40186)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1026.0,1166.0)
+:Sending Touch (ACTION_UP): 0:(1024.0107,1162.1646)
+    //[calendar_time:2020-05-06 02:16:30.273  system_uptime:13483268]
+    // Sending event #100
+Sleeping for 300 milliseconds
+    //[calendar_time:2020-05-06 02:16:30.720  system_uptime:13483589]
+    // Sending event #100
+:Sending Touch (ACTION_DOWN): 0:(60.0,1059.0)
+:Sending Touch (ACTION_MOVE): 0:(61.165367,1048.0375)
+:Sending Touch (ACTION_MOVE): 0:(62.11022,1044.6262)
+:Sending Touch (ACTION_MOVE): 0:(62.58257,1038.6799)
+:Sending Touch (ACTION_MOVE): 0:(63.660576,1026.5541)
+:Sending Touch (ACTION_UP): 0:(64.284904,1024.3057)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1027.0,172.0)
+:Sending Touch (ACTION_UP): 0:(1026.436,169.68929)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1070.0,1234.0)
+:Sending Touch (ACTION_MOVE): 0:(1067.4437,1236.6471)
+:Sending Touch (ACTION_MOVE): 0:(1059.5767,1242.9532)
+:Sending Touch (ACTION_MOVE): 0:(1050.093,1248.5519)
+:Sending Touch (ACTION_MOVE): 0:(1035.0438,1254.478)
+:Sending Touch (ACTION_MOVE): 0:(1034.483,1255.402)
+:Sending Touch (ACTION_MOVE): 0:(1031.5934,1260.5984)
+:Sending Touch (ACTION_MOVE): 0:(1028.0762,1267.3502)
+:Sending Touch (ACTION_MOVE): 0:(1023.0848,1268.247)
+:Sending Touch (ACTION_UP): 0:(1005.7337,1273.5072)
+Sleeping for 300 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(152.0,2001.0)
+:Sending Touch (ACTION_UP): 0:(143.69798,2006.2605)
+Sleeping for 300 milliseconds
+    // Rejecting start of Intent { act=android.settings.NOTIFICATION_SETTINGS cmp=com.android.settings/.Settings$ConfigureNotificationSettingsActivity } in package com.android.settings
+:Sending Key (ACTION_DOWN): 96    // KEYCODE_BUTTON_A
+:Sending Key (ACTION_UP): 96    // KEYCODE_BUTTON_A
+Sleeping for 300 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 300 milliseconds
+    // activityResuming(com.onepilltest)
+:Sending Touch (ACTION_DOWN): 0:(794.0,622.0)
+:Sending Touch (ACTION_MOVE): 0:(777.4252,630.5007)
