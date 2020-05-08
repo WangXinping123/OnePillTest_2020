@@ -1,3 +1,9 @@
+/*
+ * 李晓月
+ * 2017011749
+ * 主要内容：找医生、帮助与反馈、关注与收藏
+ */
+
 package lixiaoyue.dataprovider;
 
 
@@ -12,11 +18,8 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
-/*
- * Excel数据驱动�?
- */
+
+
 
 public class ExcelDataProvider {
 
@@ -37,14 +40,13 @@ public class ExcelDataProvider {
 		Sheet sheet = wbook.getSheet(sheetName);
 		// 通过sheetName生成Sheet对象
 		int rowCount = sheet.getLastRowNum() - sheet.getFirstRowNum();
-		// 获取当前sheet行数，行号和列号都是从０�?�?
+		// 获取当前sheet行数，行号和列号都是从0开始
 		List<Object[]> records = new ArrayList<Object[]>();
 		// 使用双循环获取excel文件的所有数据（第一行除外）
 		for (int i = 1; i < rowCount + 1; i++) {
 			Row row = sheet.getRow(i);
 			String fields[] = new String[row.getLastCellNum()];
 			for (int j = 0; j < row.getLastCellNum(); j++) {
-				// 获取单元格数�?
 				fields[j] = row.getCell(j).getStringCellValue();
 			}
 			records.add(fields);

@@ -1,4 +1,10 @@
-package liixaoyue.utils;
+/*
+ * 李晓月
+ * 2017011749
+ * 主要内容：找医生、帮助与反馈、关注与收藏
+ */
+
+package lixiaoyue.utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -35,8 +41,7 @@ public class BaseAction {
 	}
 
 	/**
-	 * ����
-	 * 
+	 * 输入
 	 * @param element
 	 * @param context
 	 */
@@ -53,20 +58,19 @@ public class BaseAction {
 		element.clear();
 		element.sendKeys(context);
 	}
-	// ����
+	
 	public void longPress(WebElement element) {
 		LongPressOptions longPressOptions = LongPressOptions.longPressOptions();
 		longPressOptions.withElement(ElementOption.element(element));
 		action.longPress(longPressOptions).release().perform();
 	}
 
-	// �����Ļ���
+	
 	public void swip(PointOption fromOption, PointOption toOption) {
 		action.press(fromOption).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1))).moveTo(toOption)
 				.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1))).release().perform();
 	}
 
-	// Ԫ�ؼ�Ļ���
 	public void swip(WebElement fromEle, WebElement toEle) {
 
 		PointOption fromOption = PointOption.point(fromEle.getLocation().getX(), fromEle.getLocation().getY());

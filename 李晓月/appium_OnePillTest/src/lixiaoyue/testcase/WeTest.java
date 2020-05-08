@@ -11,10 +11,10 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import liixaoyue.utils.ReadProperties;
 import lixiaoyue.base.BaseTest;
 import lixiaoyue.dataprovider.ExcelDataProvider;
 import lixiaoyue.pages.WePage;
+import lixiaoyue.utils.ReadProperties;
 
 public class WeTest extends BaseTest{
 	

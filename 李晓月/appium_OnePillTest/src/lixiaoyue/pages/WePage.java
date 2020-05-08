@@ -8,7 +8,7 @@ package lixiaoyue.pages;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import liixaoyue.utils.BaseAction;
+import lixiaoyue.utils.BaseAction;
 
 public class WePage {
 	private AndroidDriver<AndroidElement> driver;
