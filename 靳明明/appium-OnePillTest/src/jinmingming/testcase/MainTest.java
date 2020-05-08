@@ -1,13 +1,18 @@
-package testcase;
+package jinmingming.testcase;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
-import base.BaseTest;
-import pages.HomePage;
-import pages.LoginPage;
-
+import jinmingming.base.BaseTest;
+import jinmingming.pages.HomePage;
+import jinmingming.pages.LoginPage;
+/**
+ * 项目名称：OnePillTest   
+ * 类名称：MainTest   
+ * 类描述： 
+ * @author jinmingming
+ * @version  
+ */
 public class MainTest extends BaseTest{
 	HomePage homePage;
 	@BeforeClass

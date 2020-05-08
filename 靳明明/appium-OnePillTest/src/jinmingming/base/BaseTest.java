@@ -1,17 +1,19 @@
-package base;
+package jinmingming.base;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
-import pages.LoginPage;
-
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-
-import java.io.IOException;
 import java.net.URL;
-
+/**
+ * 项目名称：OnePillTest   
+ * 类名称：BaseTest   
+ * 类描述： 
+ * @author jinmingming 
+ * @version  
+ */
 public class BaseTest {
 	private static AppiumDriverLocalService service;
 	public AndroidDriver<AndroidElement> driver;

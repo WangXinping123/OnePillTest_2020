@@ -1,4 +1,4 @@
-package utils;
+package jinmingming.utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -12,7 +12,13 @@ import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 import io.appium.java_client.touch.offset.PointOption;
-
+/**
+ * 项目名称：OnePillTest   
+ * 类名称：BaseAction   
+ * 类描述： 
+ * @author jinmingming 
+ * @version  
+ */
 public class BaseAction {
 	public AndroidDriver<AndroidElement> driver;
 	public AndroidTouchAction action;

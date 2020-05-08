@@ -1,10 +1,17 @@
-package pages;
+package jinmingming.pages;
 
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import utils.BaseAction;
+import jinmingming.utils.BaseAction;
 
+/**
+ * 项目名称：OnePillTest   
+ * 类名称：HomePage   
+ * 类描述： 
+ * @author jinmingming
+ * @version  
+ */
 public class HomePage {
 	private AndroidDriver<AndroidElement> driver;
 	BaseAction action;
