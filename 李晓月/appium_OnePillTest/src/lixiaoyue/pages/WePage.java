@@ -1,3 +1,9 @@
+/*
+ * 李晓月
+ * 2017011749
+ * 主要内容：找医生、帮助与反馈、关注与收藏
+ */
+
 package lixiaoyue.pages;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -175,24 +181,28 @@ public class WePage {
 	         //***************关注与收藏*****************//	
 	//点击关注与收藏
 	public void click_get() throws Exception {
+		Thread.sleep(1000);
 		action.click(bt_get());
 		Thread.sleep(2000);
 	}
 	
 	//点击医生
 	public void click_doc() throws Exception {
+		Thread.sleep(1000);
 		action.click(bt_doc());
 		Thread.sleep(2000);
 	}
 	
 	//点击药品
 	public void click_med() throws Exception {
+		Thread.sleep(1000);
 		action.click(bt_med());
 		Thread.sleep(2000);
 	}
 	
 	//点击返回
 	public void click_back() throws Exception {
+		Thread.sleep(1000);
 		action.click(bt_back());
 		Thread.sleep(2000);
 	}
