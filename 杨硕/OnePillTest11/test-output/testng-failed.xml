@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="wangxinping.testcase.AddressTest">
+        <methods>
+          <include name="test_edit_address_phone"/>
+          <include name="loginsucess"/>
+          <include name="test_edit_address_more"/>
+          <include name="globalSetup"/>
+          <include name="test_edit_address_name"/>
+          <include name="test_edit_address_address"/>
+        </methods>
+      </class> <!-- wangxinping.testcase.AddressTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
