@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\jinmingming\AppData\Local\Temp\testng-eclipse-298401063\testng-customsuite.xml</span>
+                    <span>C:\Users\jinmingming\AppData\Local\Temp\testng-eclipse-1400604022\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcase.MainTest" hash-for-method="Back">Back</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="jinmingming.testcase.WalletTest" hash-for-method="MoneyIn">MoneyIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcase.MainTest" hash-for-method="MainSuccess">MainSuccess</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="jinmingming.testcase.WalletTest" hash-for-method="MoneyOut">MoneyOut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcase.MainTest" hash-for-method="Order">Order</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="jinmingming.testcase.WalletTest" hash-for-method="Wallet">Wallet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="jinmingming.testcase.WalletTest" hash-for-method="back">back</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -130,28 +135,35 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcase.MainTest</span>
+              <span class="class-name">jinmingming.testcase.WalletTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Back">
-                  </a> <!-- Back -->
-                  <span class="method-name">Back</span>
+                  <a name="MoneyIn">
+                  </a> <!-- MoneyIn -->
+                  <span class="method-name">MoneyIn</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="MainSuccess">
-                  </a> <!-- MainSuccess -->
-                  <span class="method-name">MainSuccess</span>
+                  <a name="MoneyOut">
+                  </a> <!-- MoneyOut -->
+                  <span class="method-name">MoneyOut</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Order">
-                  </a> <!-- Order -->
-                  <span class="method-name">Order</span>
+                  <a name="Wallet">
+                  </a> <!-- Wallet -->
+                  <span class="method-name">Wallet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="back">
+                  </a> <!-- back -->
+                  <span class="method-name">back</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +171,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\jinmingming\AppData\Local\Temp\testng-eclipse-298401063\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\jinmingming\AppData\Local\Temp\testng-eclipse-1400604022\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -168,7 +180,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcase.MainTest&quot;/&gt;
+      &lt;class name=&quot;jinmingming.testcase.WalletTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -208,24 +220,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'MainSuccess')
-data.setCell(0, 2, 'testcase.MainTest')
-data.setCell(0, 3, 5279);
+data.setCell(0, 1, 'MoneyOut')
+data.setCell(0, 2, 'jinmingming.testcase.WalletTest')
+data.setCell(0, 3, 2619);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Back')
-data.setCell(1, 2, 'testcase.MainTest')
-data.setCell(1, 3, 855);
+data.setCell(1, 1, 'Wallet')
+data.setCell(1, 2, 'jinmingming.testcase.WalletTest')
+data.setCell(1, 3, 2146);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Order')
-data.setCell(2, 2, 'testcase.MainTest')
-data.setCell(2, 3, 136);
+data.setCell(2, 1, 'MoneyIn')
+data.setCell(2, 2, 'jinmingming.testcase.WalletTest')
+data.setCell(2, 3, 631);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'back')
+data.setCell(3, 2, 'jinmingming.testcase.WalletTest')
+data.setCell(3, 3, 123);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -251,30 +267,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcase.MainTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">jinmingming.testcase.WalletTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">globalSetup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">login</span>
-                <span class="method-start">18544 ms</span>
+                <span class="method-start">20944 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">MainSuccess</span>
-                <span class="method-start">24158 ms</span>
+                <span class="method-name">Wallet</span>
+                <span class="method-start">30263 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Order</span>
-                <span class="method-start">29439 ms</span>
+                <span class="method-name">MoneyOut</span>
+                <span class="method-start">32412 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Back</span>
-                <span class="method-start">29577 ms</span>
+                <span class="method-name">MoneyIn</span>
+                <span class="method-start">35032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">back</span>
+                <span class="method-start">35665 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">globalTearDown</span>
-                <span class="method-start">30485 ms</span>
+                <span class="method-start">35822 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

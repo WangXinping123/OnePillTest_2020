@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11901" started-at="2020-04-29T03:08:53Z" finished-at="2020-04-29T03:09:05Z">
+  <suite name="Default suite" duration-ms="14860" started-at="2020-05-11T13:55:45Z" finished-at="2020-05-11T13:55:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11901" started-at="2020-04-29T03:08:53Z" finished-at="2020-04-29T03:09:05Z">
-      <class name="testcase.MainTest">
-        <test-method status="PASS" signature="globalSetup()[pri:0, instance:testcase.MainTest@483bf400]" name="globalSetup" is-config="true" duration-ms="18531" started-at="2020-04-29T11:08:34Z" finished-at="2020-04-29T11:08:53Z">
+    <test name="Default test" duration-ms="14860" started-at="2020-05-11T13:55:45Z" finished-at="2020-05-11T13:55:59Z">
+      <class name="jinmingming.testcase.WalletTest">
+        <test-method status="PASS" signature="globalSetup()[pri:0, instance:jinmingming.testcase.WalletTest@5474c6c]" name="globalSetup" is-config="true" duration-ms="20930" started-at="2020-05-11T21:55:24Z" finished-at="2020-05-11T21:55:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testcase.MainTest@483bf400]" name="login" is-config="true" duration-ms="5610" started-at="2020-04-29T11:08:53Z" finished-at="2020-04-29T11:08:58Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:jinmingming.testcase.WalletTest@5474c6c]" name="login" is-config="true" duration-ms="9316" started-at="2020-05-11T21:55:45Z" finished-at="2020-05-11T21:55:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="MainSuccess()[pri:0, instance:testcase.MainTest@483bf400]" name="MainSuccess" duration-ms="5279" started-at="2020-04-29T11:08:58Z" finished-at="2020-04-29T11:09:04Z">
+        <test-method status="PASS" signature="Wallet()[pri:0, instance:jinmingming.testcase.WalletTest@5474c6c]" name="Wallet" duration-ms="2146" started-at="2020-05-11T21:55:54Z" finished-at="2020-05-11T21:55:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MainSuccess -->
-        <test-method status="PASS" signature="Order()[pri:1, instance:testcase.MainTest@483bf400]" name="Order" duration-ms="136" started-at="2020-04-29T11:09:04Z" finished-at="2020-04-29T11:09:04Z">
+        </test-method> <!-- Wallet -->
+        <test-method status="PASS" signature="MoneyOut()[pri:1, instance:jinmingming.testcase.WalletTest@5474c6c]" name="MoneyOut" duration-ms="2619" started-at="2020-05-11T21:55:56Z" finished-at="2020-05-11T21:55:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Order -->
-        <test-method status="PASS" signature="Back()[pri:2, instance:testcase.MainTest@483bf400]" name="Back" duration-ms="855" started-at="2020-04-29T11:09:04Z" finished-at="2020-04-29T11:09:05Z">
+        </test-method> <!-- MoneyOut -->
+        <test-method status="PASS" signature="MoneyIn()[pri:2, instance:jinmingming.testcase.WalletTest@5474c6c]" name="MoneyIn" duration-ms="631" started-at="2020-05-11T21:55:59Z" finished-at="2020-05-11T21:55:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Back -->
-        <test-method status="PASS" signature="globalTearDown()[pri:0, instance:testcase.MainTest@483bf400]" name="globalTearDown" is-config="true" duration-ms="2057" started-at="2020-04-29T11:09:05Z" finished-at="2020-04-29T11:09:07Z">
+        </test-method> <!-- MoneyIn -->
+        <test-method status="PASS" signature="back()[pri:3, instance:jinmingming.testcase.WalletTest@5474c6c]" name="back" duration-ms="123" started-at="2020-05-11T21:55:59Z" finished-at="2020-05-11T21:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method status="PASS" signature="globalTearDown()[pri:0, instance:jinmingming.testcase.WalletTest@5474c6c]" name="globalTearDown" is-config="true" duration-ms="1757" started-at="2020-05-11T21:55:59Z" finished-at="2020-05-11T21:56:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalTearDown -->
-      </class> <!-- testcase.MainTest -->
+      </class> <!-- jinmingming.testcase.WalletTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
