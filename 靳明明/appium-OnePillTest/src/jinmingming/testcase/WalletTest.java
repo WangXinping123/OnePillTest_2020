@@ -24,7 +24,6 @@ public class WalletTest extends BaseTest{
 		homePage.Main();
 		Thread.sleep(3000);
 	}
-	SoftAssert softAssert = new SoftAssert();
 	//点击进入钱包
 	@Test(priority=0)
 	public void Wallet() throws Exception{
